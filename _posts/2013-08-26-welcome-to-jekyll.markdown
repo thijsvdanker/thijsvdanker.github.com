@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Jekyll testing jeej!"
-date: '2013-08-23 16:54:17'
+date: "2013-08-23 16:54:17"
 categories: jekyll update
 published: true
 ---
 
-##Portfolio item 1
+##Jekyll for real
 
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
