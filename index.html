@@ -4,4 +4,16 @@ title: Bits n Bolts
 published: true
 ---
 
-Work in progress.. for sure :)
+<h1>Portfolio</h1>
+{% for post in site.posts %}
+<div class="row">
+  <div class="large-12 columns">
+    {{ post.excerpt }}
+    <hr>
+    {{ post.content }}
+    <hr>
+    {{ post }}
+  </div>
+</div>
+
+    {% endfor %}
