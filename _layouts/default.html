@@ -9,26 +9,29 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
-<!--         <link rel="stylesheet" href="/css/main.css"> -->
+
           <meta name="viewport" content="width=device-width">
       <link rel="stylesheet" href="css/foundation.css">
-
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/bnb.css">
       <script src="js/vendor/custom.modernizr.js"></script>
 
     </head>
     <body>
     <header>
-      <div class="row">
-        <div class="large-12">
+      <div id="header" class="row">
+        <div class="large-12 columns">
           <h1>{{ page.title }}</h1>
+        </div>
+        <div class="large-12 columns">
+          <p>Freelance <strong>Drupal Development</strong></p>
         </div>
       </div>
     </header>
     <main role="main">
-      <div class="row">
-        <div class="large-12">
-          <h1>{{ content }}</h1>
+      <div id="content" class="row">
+        <div class="large-12 columns">
+          {{ content }}
         </div>
       </div>
     </div>

@@ -1,0 +1,17 @@
+$bnb_blue: #1081bb;
+
+
+body {
+	background:#666;
+}
+#header {
+	background:$bnb_blue;
+	text-align:center;
+	color:#fff;
+	h1 {
+		color:#fff;
+	}
+}
+#content  {
+	background:#fff;
+}

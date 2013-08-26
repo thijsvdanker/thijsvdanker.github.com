@@ -1,0 +1,20 @@
+/* line 4, ../_assets/scss/bnb.scss */
+body {
+  background: #666;
+}
+
+/* line 7, ../_assets/scss/bnb.scss */
+#header {
+  background: #1081bb;
+  text-align: center;
+  color: #fff;
+}
+/* line 11, ../_assets/scss/bnb.scss */
+#header h1 {
+  color: #fff;
+}
+
+/* line 15, ../_assets/scss/bnb.scss */
+#content {
+  background: #fff;
+}
