@@ -2,7 +2,7 @@ $bnb_blue: #1081bb;
 
 
 body {
-	background:#666;
+	background-image:url('/img/grey_wash_wall.png');
 }
 #header {
 	background:$bnb_blue;
@@ -13,5 +13,18 @@ body {
 	}
 }
 #content  {
+	// background:#fff;
+
+}
+#main-container {
 	background:#fff;
+	-moz-box-shadow:
+        5px 0 5px -5px #333,
+        -5px 0 5px -5px #333;
+    -webkit-box-shadow:
+        5px 0 5px -5px #333,
+        -5px 0 5px -5px #333;
+    box-shadow:
+        5px 0 5px -5px #333,
+        -5px 0 5px -5px #333;
 }

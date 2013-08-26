@@ -1,6 +1,6 @@
 /* line 4, ../_assets/scss/bnb.scss */
 body {
-  background: #666;
+  background-image: url("/img/grey_wash_wall.png");
 }
 
 /* line 7, ../_assets/scss/bnb.scss */
@@ -14,7 +14,10 @@ body {
   color: #fff;
 }
 
-/* line 15, ../_assets/scss/bnb.scss */
-#content {
+/* line 19, ../_assets/scss/bnb.scss */
+#main-container {
   background: #fff;
+  -moz-box-shadow: 5px 0 5px -5px #333, -5px 0 5px -5px #333;
+  -webkit-box-shadow: 5px 0 5px -5px #333, -5px 0 5px -5px #333;
+  box-shadow: 5px 0 5px -5px #333, -5px 0 5px -5px #333;
 }
