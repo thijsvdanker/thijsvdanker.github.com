@@ -1,7 +1,0 @@
----
-published: true
----
-
-## Fuzeo
-
-This is a portfolio item about [Fuzeo](http://www.fuzeo.com).
