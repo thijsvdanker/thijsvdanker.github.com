@@ -84,6 +84,7 @@ h2 {
     width:80px;
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:50px;
   a {
     color:#c2c2c2;
        transition: color .25s ease-in-out;
@@ -97,6 +98,7 @@ h2 {
 
   ul {
     list-style:none;
+    padding-bottom:50px;
 
   }
   li {
@@ -113,6 +115,11 @@ h2 {
   left:15%;
   bottom:13%;
   width:70%;
+}
+@media only screen {
+  .company-name-wrapper {
+  width:309px;
+}
 }
 @media only screen and (min-width: 768px) {
 
@@ -131,7 +138,7 @@ h2 {
 .company-name-wrapper {
   width:378px;
 }
- }
+}
 
 #logo {
   text-align: right;
@@ -154,7 +161,6 @@ h2 {
   }
 }
 .company-name-wrapper {
-	width:309px;
 	margin-left:auto;
 	margin-right:auto;
 }

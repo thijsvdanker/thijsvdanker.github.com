@@ -96,44 +96,52 @@ h2 strong {
   width: 80px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
-/* line 87, ../_assets/scss/bnb.scss */
+/* line 88, ../_assets/scss/bnb.scss */
 #social-buttons a {
   color: #c2c2c2;
   transition: color .25s ease-in-out;
   -moz-transition: color .25s ease-in-out;
   -webkit-transition: color .25s ease-in-out;
 }
-/* line 93, ../_assets/scss/bnb.scss */
+/* line 94, ../_assets/scss/bnb.scss */
 #social-buttons a:hover {
   color: #2ba6cb;
 }
 
-/* line 98, ../_assets/scss/bnb.scss */
+/* line 99, ../_assets/scss/bnb.scss */
 ul {
   list-style: none;
+  padding-bottom: 50px;
 }
 
-/* line 102, ../_assets/scss/bnb.scss */
+/* line 104, ../_assets/scss/bnb.scss */
 li {
   color: #c2c2c2;
   float: left;
   margin: 0 2px;
 }
-/* line 107, ../_assets/scss/bnb.scss */
+/* line 109, ../_assets/scss/bnb.scss */
 li:hover {
   color: #000;
 }
 
-/* line 112, ../_assets/scss/bnb.scss */
+/* line 114, ../_assets/scss/bnb.scss */
 .rsDefaultInv .rsGCaption {
   left: 15%;
   bottom: 13%;
   width: 70%;
 }
 
+@media only screen {
+  /* line 120, ../_assets/scss/bnb.scss */
+  .company-name-wrapper {
+    width: 309px;
+  }
+}
 @media only screen and (min-width: 768px) {
-  /* line 119, ../_assets/scss/bnb.scss */
+  /* line 126, ../_assets/scss/bnb.scss */
   .rsDefaultInv .rsGCaption {
     font-weight: 700;
     background: none;
@@ -146,12 +154,12 @@ li:hover {
     right: -30%;
   }
 
-  /* line 131, ../_assets/scss/bnb.scss */
+  /* line 138, ../_assets/scss/bnb.scss */
   .company-name-wrapper {
     width: 378px;
   }
 }
-/* line 136, ../_assets/scss/bnb.scss */
+/* line 143, ../_assets/scss/bnb.scss */
 #logo {
   text-align: right;
   font-size: 15px;
@@ -160,41 +168,40 @@ li:hover {
   margin-right: 10px;
 }
 
-/* line 146, ../_assets/scss/bnb.scss */
+/* line 153, ../_assets/scss/bnb.scss */
 #company-name {
   width: 100%;
   float: left;
   margin-top: 20px;
 }
-/* line 151, ../_assets/scss/bnb.scss */
+/* line 158, ../_assets/scss/bnb.scss */
 #company-name h1 {
   float: left;
   margin-top: 0;
 }
 
-/* line 156, ../_assets/scss/bnb.scss */
+/* line 163, ../_assets/scss/bnb.scss */
 .company-name-wrapper {
-  width: 309px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 161, ../_assets/scss/bnb.scss */
+/* line 167, ../_assets/scss/bnb.scss */
 #slider-in-laptop img {
   display: none;
 }
 
-/* line 164, ../_assets/scss/bnb.scss */
+/* line 170, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsContainer img {
   display: inherit;
 }
 
-/* line 170, ../_assets/scss/bnb.scss */
+/* line 176, ../_assets/scss/bnb.scss */
 #slider-in-laptop figure {
   display: none;
 }
 
-/* line 173, ../_assets/scss/bnb.scss */
+/* line 179, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsGCaption figure {
   display: inherit;
 }
