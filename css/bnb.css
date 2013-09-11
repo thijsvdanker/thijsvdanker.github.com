@@ -1,23 +1,167 @@
-/* line 4, ../_assets/scss/bnb.scss */
-body {
-  background-image: url("/img/grey_wash_wall.png");
+/* line 7, ../_assets/scss/bnb.scss */
+#slider-in-laptop {
+  width: 100%;
+  height: auto;
+  padding: 2% 15% 7%;
+  background: none;
 }
 
-/* line 7, ../_assets/scss/bnb.scss */
-#header {
-  background: #1081bb;
-  text-align: center;
-  color: #fff;
-}
-/* line 11, ../_assets/scss/bnb.scss */
-#header h1 {
-  color: #fff;
+/* line 16, ../_assets/scss/bnb.scss */
+#slider-in-laptop .rsOverflow,
+#slider-in-laptop .rsSlide,
+#slider-in-laptop .rsVideoFrameHolder,
+#slider-in-laptop .rsThumbs {
+  background: #151515;
 }
 
 /* line 19, ../_assets/scss/bnb.scss */
+.imgBg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+/* line 26, ../_assets/scss/bnb.scss */
+#slider-in-laptop .rsBullets {
+  bottom: -25px;
+}
+
+/* line 29, ../_assets/scss/bnb.scss */
+.laptopBg {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* line 34, ../_assets/scss/bnb.scss */
+#slider-in-laptop .rsBullets {
+  bottom: -30px;
+}
+
+/* line 37, ../_assets/scss/bnb.scss */
+.columns {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-background-clip: padding-box !important;
+  -webkit-background-clip: padding-box !important;
+  background-clip: padding-box !important;
+}
+
+/* line 47, ../_assets/scss/bnb.scss */
+#main-wrapper {
+  position: relative;
+}
+
+/* line 51, ../_assets/scss/bnb.scss */
 #main-container {
-  background: #fff;
-  -moz-box-shadow: 5px 0 5px -5px #333, -5px 0 5px -5px #333;
-  -webkit-box-shadow: 5px 0 5px -5px #333, -5px 0 5px -5px #333;
-  box-shadow: 5px 0 5px -5px #333, -5px 0 5px -5px #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30%;
+  width: 50%;
+  margin: -15% 0 0 -25%;
+}
+
+/* line 59, ../_assets/scss/bnb.scss */
+html, body, #main-wrapper {
+  height: 100%;
+}
+
+/* line 62, ../_assets/scss/bnb.scss */
+#content {
+  text-align: center;
+}
+
+/* line 65, ../_assets/scss/bnb.scss */
+body, h1, h2 {
+  font-family: "museo-sans", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/* line 66, ../_assets/scss/bnb.scss */
+h1 {
+  font-weight: 100;
+  font-style: normal;
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+/* line 73, ../_assets/scss/bnb.scss */
+h2 {
+  font-weight: 100;
+  font-style: normal;
+  font-size: 17px;
+}
+/* line 77, ../_assets/scss/bnb.scss */
+h2 strong {
+  font-weight: 700;
+}
+
+/* line 81, ../_assets/scss/bnb.scss */
+#social-buttons {
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 87, ../_assets/scss/bnb.scss */
+#social-buttons a {
+  color: #c2c2c2;
+  transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -webkit-transition: color .25s ease-in-out;
+}
+/* line 93, ../_assets/scss/bnb.scss */
+#social-buttons a:hover {
+  color: #2ba6cb;
+}
+
+/* line 98, ../_assets/scss/bnb.scss */
+ul {
+  list-style: none;
+}
+
+/* line 102, ../_assets/scss/bnb.scss */
+li {
+  color: #c2c2c2;
+  float: left;
+  margin: 0 2px;
+}
+/* line 107, ../_assets/scss/bnb.scss */
+li:hover {
+  color: #000;
+}
+
+/* line 112, ../_assets/scss/bnb.scss */
+.rsDefaultInv .rsGCaption {
+  font-weight: 700;
+  background: none;
+  top: -35px;
+  width: 100%;
+  text-align: center;
+  height: 2em;
+}
+
+/* line 120, ../_assets/scss/bnb.scss */
+#logo {
+  text-align: right;
+  font-size: 15px;
+  float: left;
+  padding-top: 20px;
+  margin-right: 10px;
+}
+
+/* line 130, ../_assets/scss/bnb.scss */
+#company-name {
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  padding-left: 101px;
+}
+/* line 135, ../_assets/scss/bnb.scss */
+#company-name h1 {
+  float: left;
+  margin-top: 0;
 }
