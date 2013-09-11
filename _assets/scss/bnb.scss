@@ -109,14 +109,27 @@ h2 {
   }
 }
 
+.rsDefaultInv .rsGCaption {
+  left:15%;
+  bottom:13%;
+  width:70%;
+}
+@media only screen and (min-width: 768px) {
+
 .rsDefaultInv .rsGCaption {   
   font-weight:700;
   background:none;
-  top:-35px;
-  width:100%;
+  top:0px;
+  bottom:auto;
+  width:250px;
   text-align: center;
   height:2em;
+  left:auto;
+  right:-30%;
 }
+
+ }
+
 #logo {
   text-align: right;
   // position: absolute;
