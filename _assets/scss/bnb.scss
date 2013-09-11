@@ -137,3 +137,18 @@ h2 {
     margin-top:0;
   }
 }
+#slider-in-laptop img {
+	display:none;
+}
+#slider-in-laptop .rsContainer img {
+	display:inherit;
+}
+.portfolio-slider {
+	height:327px;
+}
+#slider-in-laptop figure {
+	display:none;
+}
+#slider-in-laptop .rsGCaption figure {
+	display:inherit;
+}

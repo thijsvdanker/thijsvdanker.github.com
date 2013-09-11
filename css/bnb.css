@@ -165,3 +165,28 @@ li:hover {
   float: left;
   margin-top: 0;
 }
+
+/* line 140, ../_assets/scss/bnb.scss */
+#slider-in-laptop img {
+  display: none;
+}
+
+/* line 143, ../_assets/scss/bnb.scss */
+#slider-in-laptop .rsContainer img {
+  display: inherit;
+}
+
+/* line 146, ../_assets/scss/bnb.scss */
+.portfolio-slider {
+  height: 327px;
+}
+
+/* line 149, ../_assets/scss/bnb.scss */
+#slider-in-laptop figure {
+  display: none;
+}
+
+/* line 152, ../_assets/scss/bnb.scss */
+#slider-in-laptop .rsGCaption figure {
+  display: inherit;
+}
