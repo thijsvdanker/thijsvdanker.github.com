@@ -93,41 +93,40 @@ h2 strong {
 
 /* line 81, ../_assets/scss/bnb.scss */
 #social-buttons {
-  width: 80px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
 }
-/* line 88, ../_assets/scss/bnb.scss */
+/* line 87, ../_assets/scss/bnb.scss */
 #social-buttons a {
   color: #c2c2c2;
   transition: color .25s ease-in-out;
   -moz-transition: color .25s ease-in-out;
   -webkit-transition: color .25s ease-in-out;
 }
-/* line 94, ../_assets/scss/bnb.scss */
+/* line 93, ../_assets/scss/bnb.scss */
 #social-buttons a:hover {
   color: #2ba6cb;
 }
 
-/* line 99, ../_assets/scss/bnb.scss */
+/* line 98, ../_assets/scss/bnb.scss */
 ul {
   list-style: none;
   padding-bottom: 50px;
 }
 
-/* line 104, ../_assets/scss/bnb.scss */
+/* line 103, ../_assets/scss/bnb.scss */
 li {
   color: #c2c2c2;
   float: left;
   margin: 0 2px;
 }
-/* line 109, ../_assets/scss/bnb.scss */
+/* line 108, ../_assets/scss/bnb.scss */
 li:hover {
   color: #000;
 }
 
-/* line 114, ../_assets/scss/bnb.scss */
+/* line 113, ../_assets/scss/bnb.scss */
 .rsDefaultInv .rsGCaption {
   left: 15%;
   bottom: 13%;
@@ -135,13 +134,18 @@ li:hover {
 }
 
 @media only screen {
-  /* line 120, ../_assets/scss/bnb.scss */
+  /* line 119, ../_assets/scss/bnb.scss */
   .company-name-wrapper {
     width: 313px;
   }
+
+  /* line 122, ../_assets/scss/bnb.scss */
+  #social-buttons {
+    width: 100px;
+  }
 }
 @media only screen and (min-width: 768px) {
-  /* line 126, ../_assets/scss/bnb.scss */
+  /* line 128, ../_assets/scss/bnb.scss */
   .rsDefaultInv .rsGCaption {
     font-weight: 700;
     background: none;
@@ -154,12 +158,17 @@ li:hover {
     right: -30%;
   }
 
-  /* line 138, ../_assets/scss/bnb.scss */
+  /* line 140, ../_assets/scss/bnb.scss */
   .company-name-wrapper {
     width: 379px;
   }
+
+  /* line 143, ../_assets/scss/bnb.scss */
+  #social-buttons {
+    width: 80px;
+  }
 }
-/* line 143, ../_assets/scss/bnb.scss */
+/* line 148, ../_assets/scss/bnb.scss */
 #logo {
   text-align: right;
   font-size: 15px;
@@ -168,40 +177,40 @@ li:hover {
   margin-right: 10px;
 }
 
-/* line 153, ../_assets/scss/bnb.scss */
+/* line 158, ../_assets/scss/bnb.scss */
 #company-name {
   width: 100%;
   float: left;
   margin-top: 20px;
 }
-/* line 158, ../_assets/scss/bnb.scss */
+/* line 163, ../_assets/scss/bnb.scss */
 #company-name h1 {
   float: left;
   margin-top: 0;
 }
 
-/* line 163, ../_assets/scss/bnb.scss */
+/* line 168, ../_assets/scss/bnb.scss */
 .company-name-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 167, ../_assets/scss/bnb.scss */
+/* line 172, ../_assets/scss/bnb.scss */
 #slider-in-laptop img {
   display: none;
 }
 
-/* line 170, ../_assets/scss/bnb.scss */
+/* line 175, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsContainer img {
   display: inherit;
 }
 
-/* line 176, ../_assets/scss/bnb.scss */
+/* line 181, ../_assets/scss/bnb.scss */
 #slider-in-laptop figure {
   display: none;
 }
 
-/* line 179, ../_assets/scss/bnb.scss */
+/* line 184, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsGCaption figure {
   display: inherit;
 }
