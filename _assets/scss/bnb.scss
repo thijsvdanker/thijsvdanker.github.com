@@ -79,6 +79,9 @@ h2 {
     font-weight:700;
   }
 }
+ul {
+    list-style:none;
+}
 #social-buttons {
     // font-family: ""
 
@@ -94,10 +97,8 @@ h2 {
   a:hover {
     color:#2ba6cb;
   }
-  }
 
   ul {
-    list-style:none;
     padding-bottom:50px;
 
   }
@@ -108,6 +109,7 @@ h2 {
    margin:0 2px;
    &:hover {
     color:#000;
+    }
   }
 }
 
@@ -184,4 +186,16 @@ h2 {
 }
 #slider-in-laptop .rsGCaption figure {
 	display:inherit;
+}
+#contact li {
+  float:none;
+  .e-mail, .phone-number {
+    margin-left:5px;
+  }
+  .foundicon-general-mail {
+    color:#2ba6cb;
+  }
+  &.phone {
+    color:#000;
+  }
 }

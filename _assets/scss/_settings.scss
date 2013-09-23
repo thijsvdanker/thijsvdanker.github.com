@@ -1,15 +1,24 @@
 $fontFileName: "fonts/social_foundicons";
 $fontName: "SocialFoundicons";
 $classPrefix: "foundicon-";
+$fontFileNameGeneral: "fonts/general_foundicons";
+$fontNameGeneral: "GeneralFoundicons";
+$classPrefixGeneral: "foundicon-general-";
 
 @mixin i-class($name,$pua) {
   .#{$classPrefix}#{$name}:before { 
+    content: "\f#{$pua}";
+  }
+  .#{$classPrefixGeneral}#{$name}:before { 
     content: "\f#{$pua}";
   }
 }
 
 @mixin ie-class($name,$pua) {
   .#{$classPrefix}#{$name} { 
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
+  }
+  .#{$classPrefixGeneral}#{$name} { 
     *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
   }
 }
@@ -22,6 +31,16 @@ $classPrefix: "foundicon-";
          url('#{$fontFileName}.woff') format('woff'),
          url('#{$fontFileName}.ttf') format('truetype'),
          url('#{$fontFileName}.svg##{$fontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face { 
+    font-family: $fontNameGeneral;
+    src: url('#{$fontFileNameGeneral}.eot');
+    src: url('#{$fontFileNameGeneral}.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontFileNameGeneral}.woff') format('woff'),
+         url('#{$fontFileNameGeneral}.ttf') format('truetype'),
+         url('#{$fontFileNameGeneral}.svg##{$fontNameGeneral}') format('svg');
     font-weight: normal;
     font-style: normal;
   }

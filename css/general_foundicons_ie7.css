@@ -1,5 +1,5 @@
 /* general icons for IE7 */
-/* line 4, ../_assets/scss/social_foundicons_ie7.scss */
+/* line 4, ../_assets/scss/general_foundicons_ie7.scss */
 [class*="foundicon-"] {
   font-family: "SocialFoundicons";
   font-weight: normal;
@@ -7,301 +7,471 @@
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-thumb-up {
+.foundicon-settings {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-thumb-up {
+.foundicon-general-settings {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf000;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-thumb-down {
+.foundicon-heart {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-thumb-down {
+.foundicon-general-heart {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf001;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-rss {
+.foundicon-star {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-rss {
+.foundicon-general-star {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf002;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-facebook {
+.foundicon-plus {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-facebook {
+.foundicon-general-plus {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf003;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-twitter {
+.foundicon-minus {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-twitter {
+.foundicon-general-minus {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf004;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-pinterest {
+.foundicon-checkmark {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-pinterest {
+.foundicon-general-checkmark {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf005;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-github {
+.foundicon-remove {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-github {
+.foundicon-general-remove {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf006;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-path {
+.foundicon-mail {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-path {
+.foundicon-general-mail {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf007;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-linkedin {
+.foundicon-calendar {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-linkedin {
+.foundicon-general-calendar {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf008;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-dribbble {
+.foundicon-page {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-dribbble {
+.foundicon-general-page {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf009;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-stumble-upon {
+.foundicon-tools {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-stumble-upon {
+.foundicon-general-tools {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00a;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-behance {
+.foundicon-globe {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-behance {
+.foundicon-general-globe {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00b;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-reddit {
+.foundicon-home {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-reddit {
+.foundicon-general-home {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00c;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-google-plus {
+.foundicon-quote {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-google-plus {
+.foundicon-general-quote {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00d;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-youtube {
+.foundicon-people {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-youtube {
+.foundicon-general-people {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00e;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-vimeo {
+.foundicon-monitor {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-vimeo {
+.foundicon-general-monitor {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf00f;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-flickr {
+.foundicon-laptop {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-flickr {
+.foundicon-general-laptop {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf010;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-slideshare {
+.foundicon-phone {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-slideshare {
+.foundicon-general-phone {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf011;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-picassa {
+.foundicon-cloud {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-picassa {
+.foundicon-general-cloud {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf012;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-skype {
+.foundicon-error {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-skype {
+.foundicon-general-error {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf013;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-steam {
+.foundicon-right-arrow {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-steam {
+.foundicon-general-right-arrow {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf014;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-instagram {
+.foundicon-left-arrow {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-instagram {
+.foundicon-general-left-arrow {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf015;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-foursquare {
+.foundicon-up-arrow {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-foursquare {
+.foundicon-general-up-arrow {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf016;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-delicious {
+.foundicon-down-arrow {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-delicious {
+.foundicon-general-down-arrow {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf017;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-chat {
+.foundicon-trash {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-chat {
+.foundicon-general-trash {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf018;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-torso {
+.foundicon-add-doc {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-torso {
+.foundicon-general-add-doc {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf019;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-tumblr {
+.foundicon-edit {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-tumblr {
+.foundicon-general-edit {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01a;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-video-chat {
+.foundicon-lock {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-video-chat {
+.foundicon-general-lock {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01b;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-digg {
+.foundicon-unlock {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-digg {
+.foundicon-general-unlock {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01c;");
 }
 
 /* line 18, ../_assets/scss/_settings.scss */
-.foundicon-wordpress {
+.foundicon-refresh {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
 }
 
 /* line 21, ../_assets/scss/_settings.scss */
-.foundicon-general-wordpress {
+.foundicon-general-refresh {
   *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01d;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-paper-clip {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01e;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-paper-clip {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01e;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01f;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf01f;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-photo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf020;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-photo {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf020;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-graph {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf021;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-graph {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf021;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-idea {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf022;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-idea {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf022;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf023;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-mic {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf023;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-cart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf024;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-cart {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf024;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-address-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf025;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-address-book {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf025;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-compass {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf026;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-compass {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf026;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-flag {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf027;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-flag {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf027;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-location {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf028;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-location {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf028;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-clock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf029;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-clock {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf029;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-folder {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02a;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-folder {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02a;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-inbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02b;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-inbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02b;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-website {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02c;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-website {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02c;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-smiley {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02d;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-smiley {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02d;");
+}
+
+/* line 18, ../_assets/scss/_settings.scss */
+.foundicon-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
+}
+
+/* line 21, ../_assets/scss/_settings.scss */
+.foundicon-general-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf02e;");
 }
