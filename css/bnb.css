@@ -230,3 +230,7 @@ ul {
 #contact li.phone {
   color: #000;
 }
+/* line 201, ../_assets/scss/bnb.scss */
+#contact li i {
+  font-style: normal;
+}
