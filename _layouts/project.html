@@ -12,18 +12,18 @@
   <link rel="author" href="https://plus.google.com/115184840382790960084"/>
   <meta name="viewport" content="width=device-width">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/social_foundicons.css">
-  <link rel="stylesheet" href="css/general_foundicons.css">
-  <link class="rs-file" href="css/royalslider.css" rel="stylesheet">
-   <!-- slider stylesheets -->
-  <link class="rs-file" href="css/skins/default-inverted/rs-default-inverted.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/social_foundicons.css">
+  <link rel="stylesheet" href="/css/general_foundicons.css">
+  <link class="rs-file" href="/css/royalslider.css" rel="stylesheet">
+  <!-- slider stylesheets -->
+  <link class="rs-file" href="/css/skins/default-inverted/rs-default-inverted.css" rel="stylesheet">
 
 
-  <link rel="stylesheet" href="css/foundation.min.css">
+  <link rel="stylesheet" href="/css/foundation.min.css">
   <!-- syntax highlighting CSS -->
-  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="/css/syntax.css">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/bnb.css">
+  <link rel="stylesheet" href="/css/bnb.css">
   <style>
   .wf-loading h1, .wf-loading h2, .wf-loading .rsGCaption .wf-active #company-name {
     visibility: hidden;
@@ -31,28 +31,56 @@
   .wf-active h1, .wf-active h2, .wf-active .rsGCaption, .wf-active #company-name {
     visibility: visible;
   }
-</style>
+  </style>
 </head>
-<body>
+<body class="l-project">
   <div id="main-wrapper">
-  <div id="main-container" class="row">
-
-    <main role="main">
-      <div id="content">
-        <div class="large-12 columns">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-  </div>
+    <div id="main-container" class="row">
+      <main role="main">
+        <div id="content">
+          <div class="large-12 columns">
+            <div class="row">
+              <div class="large-8 large-offset-2 columns">
+              	{{content}}
+              <div id="content">
+               <div id="company-name">
+                <div class="company-name-wrapper">
+                  <div id="logo" class="hide-for-small"><span>0110101</span><br />100101<br /><span>0110101</span></div>
+                  <h1><a href="/">Bits 'n Bolts</a></h1>
+                </div>
+              </div>
+              <h2>Freelance <strong>Drupal Development</strong></h2>
+              <div id="contact">
+                <ul>
+                  <li class="phone"><i class="foundicon-general-phone"></i><span class="phone-number">+31 (0)20-4208456</span></li>
+                  <li><i class="foundicon-general-mail"><span class="e-mail"><a href="mailto:info@bitnsbolts.nl">info@bitsnbolts.nl</a></span></i></li>
+                </ul>
+              </div>
+              <div id="social-buttons">
+                <ul>
+                 <li><a href="http://www.twitter.com/thijsvdanker"><i class="foundicon-twitter"></i></a></li>
+                 <li><a href="https://plus.google.com/u/0/115184840382790960084?rel=author" rel="me"><i class="foundicon-google-plus"></a></i></li>
+                 <li><a href="http://www.linkedin.com/in/thijsvandenanker"><i class="foundicon-linkedin"></i></a></li>
+                 <li><a href="https://github.com/thijsvdanker"><i class="foundicon-github"></i></a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</main>
+</div>
 </div>
 
-  <script>
-  document.write('<script src=' +
-    ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-    '.js><\/script>')
-  </script>
-  
+
+<script>
+document.write('<script src=' +
+  ('__proto__' in {} ? '/js/vendor/zepto' : '/js/vendor/jquery') +
+  '.js><\/script>')
+</script>
+
     <!--
   
   <script src="js/foundation/foundation.js"></script>
@@ -82,35 +110,35 @@
 -->
 <!-- Google Analytics -->
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-43974600-1', 'bitsnbolts.nl');
-  ga('send', 'pageview');
+ga('create', 'UA-43974600-1', 'bitsnbolts.nl');
+ga('send', 'pageview');
 
 </script>
-    <!-- slider JS files -->
-    <script type="text/javascript">
-  (function() {
-    var config = {
-      kitId: 'udz8xdk',
-      scriptTimeout: 3000
-    };
-    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-  })();
+<!-- slider JS files -->
+<script type="text/javascript">
+(function() {
+  var config = {
+    kitId: 'udz8xdk',
+    scriptTimeout: 3000
+  };
+  var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+})();
 </script>
 <script class="rs-file" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script class="rs-file" src="js/vendor/royalslider/jquery.royalslider.min.js"></script>
+<script class="rs-file" src="/js/vendor/royalslider/jquery.royalslider.min.js"></script>
 
-<script src="js/foundation.min.js"></script>
+<script src="/js/foundation.min.js"></script>
 
-<script src="js/vendor/custom.modernizr.js"></script>
+<script src="/js/vendor/custom.modernizr.js"></script>
 <script>
 $(document).foundation();
 </script>
-   <script id="addJS">jQuery(document).ready(function($) {
+<script id="addJS">jQuery(document).ready(function($) {
   var rsi = $('#slider-in-laptop').royalSlider({
     autoHeight: false,
     arrowsNav: false,

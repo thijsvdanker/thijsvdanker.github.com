@@ -234,3 +234,8 @@ ul {
 #contact li i {
   font-style: normal;
 }
+
+/* line 207, ../_assets/scss/bnb.scss */
+.l-project .project-excerpt {
+  display: none;
+}
