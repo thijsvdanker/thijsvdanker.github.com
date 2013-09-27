@@ -3,3 +3,5 @@ markdown: redcarpet
 pygments: true
 permalink: none
 excerpt_seperator: <!--more-->
+phone-number: +31 (0)628346915
+email: thijs@bitsnbolts.nl
