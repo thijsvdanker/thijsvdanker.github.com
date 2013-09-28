@@ -8,7 +8,7 @@
             <div class="row">
               <div class="large-8 large-offset-2 columns">
                <div class="portfolio-slider laptopBg">
-                <img src="img/laptop.png" class="imgBg" width="637" height="360" />
+                <img src="/img/laptop.png" class="imgBg" width="637" height="360" />
                 <div id="slider-in-laptop" class="royalSlider rsDefaultInv">
                   {% for post in site.posts %}
                     {{post.excerpt}}
@@ -16,15 +16,10 @@
                 </div>
               </div>
               <div id="content">
-               <div id="company-name">
-                <div class="company-name-wrapper">
-                  <div id="logo" class="hide-for-small"><span>0110101</span><br />100101<br /><span>0110101</span></div>
-                  <h1>Bits 'n Bolts</h1>
-                </div>
-              </div>
-              <h2>Freelance <strong>Drupal Development</strong></h2>
-              {% include contact.html %}
+              {% include bnb_info.html %}
               {% include social-buttons.html %}
+              {% include contact.html %}
+              {% include menu.html %}
            </div>
          </div>
        </div>
