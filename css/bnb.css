@@ -153,10 +153,10 @@ ul {
   .rsDefaultInv .rsGCaption {
     font-weight: 700;
     background: none;
-    top: 0px;
+    top: 50px;
     bottom: auto;
     width: 250px;
-    text-align: center;
+    text-align: left;
     height: 2em;
     left: auto;
     right: -30%;
