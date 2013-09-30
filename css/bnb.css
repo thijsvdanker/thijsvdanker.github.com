@@ -307,31 +307,36 @@ ul {
 /* line 268, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper, .l-project #main-wrapper {
   padding: 0;
+  padding-top: 50px;
 }
-/* line 270, ../_assets/scss/bnb.scss */
+/* line 271, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper h1, .l-project #main-wrapper h1 {
   margin-top: 0;
   color: #2ba6cb;
   font-size: 48px;
 }
-/* line 275, ../_assets/scss/bnb.scss */
+/* line 276, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper #content, .l-project #main-wrapper #content {
   text-align: left;
 }
-/* line 279, ../_assets/scss/bnb.scss */
+/* line 280, ../_assets/scss/bnb.scss */
 .l-default .rsGCaption, .l-project .rsGCaption {
   top: 80px;
   right: -25%;
   text-align: left;
 }
+/* line 285, ../_assets/scss/bnb.scss */
+.l-default .portfolio-slider, .l-project .portfolio-slider {
+  margin-bottom: 35px;
+}
 
-/* line 286, ../_assets/scss/bnb.scss */
+/* line 290, ../_assets/scss/bnb.scss */
 #contact-phone-big {
   font-size: 240px;
   text-align: center;
 }
 
-/* line 292, ../_assets/scss/bnb.scss */
+/* line 296, ../_assets/scss/bnb.scss */
 .project-description ul {
   list-style: inherit;
   margin-left: 1.25em;

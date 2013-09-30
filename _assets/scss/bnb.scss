@@ -267,6 +267,7 @@ ul {
 .l-default, .l-project {
   #main-wrapper {
     padding:0;
+    padding-top:50px;
     h1 {
       margin-top:0;
       color:#2ba6cb;
@@ -280,6 +281,9 @@ ul {
     top:80px;
     right:-25%;
     text-align:left;
+  }
+  .portfolio-slider {
+    margin-bottom:35px;
   }
 }
 
