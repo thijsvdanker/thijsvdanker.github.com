@@ -129,6 +129,10 @@ ul {
     font-size:7px;
     padding-top:9px;
   }
+  #contact-phone-big {
+    font-size:240px;
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 768px) {
 
@@ -153,6 +157,10 @@ ul {
   .l-top #company-name #logo {
       font-size:8px;
       padding-top:10px;
+  }
+  #contact-phone-big {
+    font-size:240px;
+    text-align: center;
   }
 }
 
@@ -291,10 +299,7 @@ ul {
   }
 }
 
-#contact-phone-big {
-  font-size:240px;
-  text-align: center;
-}
+
 
 .project-description {
   ul {
