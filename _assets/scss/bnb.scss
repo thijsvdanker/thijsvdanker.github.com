@@ -227,9 +227,12 @@ ul {
   }
 }
 
+.wf-inactive #menu, .wf-loading #menu {
+  width:153px;
+}
 #menu {
   font-size:12px;
-  width:158px;
+  width:162px;
   margin-left:auto;
   margin-right:auto;
   a {
