@@ -216,140 +216,144 @@ ul {
   float: left;
   margin-top: 0;
 }
+/* line 186, ../_assets/scss/bnb.scss */
+#company-name a {
+  color: #000;
+}
 
-/* line 188, ../_assets/scss/bnb.scss */
+/* line 191, ../_assets/scss/bnb.scss */
 .company-name-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 194, ../_assets/scss/bnb.scss */
+/* line 197, ../_assets/scss/bnb.scss */
 .l-top .company-name-wrapper {
   margin-left: inherit;
   margin-right: inherit;
   width: auto;
 }
-/* line 200, ../_assets/scss/bnb.scss */
+/* line 203, ../_assets/scss/bnb.scss */
 .l-top #company-name h1 {
   font-size: 32px;
 }
 
-/* line 205, ../_assets/scss/bnb.scss */
+/* line 208, ../_assets/scss/bnb.scss */
 #slider-in-laptop img {
   display: none;
 }
 
-/* line 208, ../_assets/scss/bnb.scss */
+/* line 211, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsContainer img {
   display: inherit;
 }
 
-/* line 214, ../_assets/scss/bnb.scss */
+/* line 217, ../_assets/scss/bnb.scss */
 #slider-in-laptop figure {
   display: none;
 }
 
-/* line 217, ../_assets/scss/bnb.scss */
+/* line 220, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsGCaption figure {
   display: inherit;
 }
 
-/* line 220, ../_assets/scss/bnb.scss */
+/* line 223, ../_assets/scss/bnb.scss */
 #contact li {
   float: none;
 }
-/* line 222, ../_assets/scss/bnb.scss */
+/* line 225, ../_assets/scss/bnb.scss */
 #contact li .e-mail, #contact li .phone-number {
   margin-left: 5px;
 }
-/* line 225, ../_assets/scss/bnb.scss */
+/* line 228, ../_assets/scss/bnb.scss */
 #contact li .foundicon-general-mail {
   color: #2ba6cb;
 }
-/* line 228, ../_assets/scss/bnb.scss */
+/* line 231, ../_assets/scss/bnb.scss */
 #contact li.phone {
   color: #000;
 }
-/* line 231, ../_assets/scss/bnb.scss */
+/* line 234, ../_assets/scss/bnb.scss */
 #contact li i {
   font-style: normal;
 }
 
-/* line 237, ../_assets/scss/bnb.scss */
+/* line 240, ../_assets/scss/bnb.scss */
 .l-project .project-excerpt {
   display: none;
 }
 
-/* line 242, ../_assets/scss/bnb.scss */
+/* line 245, ../_assets/scss/bnb.scss */
 .wf-loading #menu {
   width: 162px;
 }
 
-/* line 245, ../_assets/scss/bnb.scss */
+/* line 248, ../_assets/scss/bnb.scss */
 .wf-inactive #menu {
   width: 153px;
 }
 
-/* line 248, ../_assets/scss/bnb.scss */
+/* line 251, ../_assets/scss/bnb.scss */
 #menu {
   font-size: 12px;
   width: 162px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 253, ../_assets/scss/bnb.scss */
+/* line 256, ../_assets/scss/bnb.scss */
 #menu a {
   color: #000;
 }
-/* line 256, ../_assets/scss/bnb.scss */
+/* line 259, ../_assets/scss/bnb.scss */
 #menu li {
   float: left;
   border-left: 1px solid #000;
   padding: 0 5px;
   line-height: 1em;
 }
-/* line 261, ../_assets/scss/bnb.scss */
+/* line 264, ../_assets/scss/bnb.scss */
 #menu li.first {
   border-left: none;
 }
 
-/* line 268, ../_assets/scss/bnb.scss */
+/* line 271, ../_assets/scss/bnb.scss */
 .l-top #menu {
   margin-left: 0;
   font-size: 12px;
 }
-/* line 272, ../_assets/scss/bnb.scss */
+/* line 275, ../_assets/scss/bnb.scss */
 .l-top #menu li.first {
   padding-left: 0px;
 }
 
-/* line 280, ../_assets/scss/bnb.scss */
+/* line 283, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper, .l-project #main-wrapper {
   padding: 0;
   padding-top: 50px;
 }
-/* line 283, ../_assets/scss/bnb.scss */
+/* line 286, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper h1, .l-project #main-wrapper h1 {
   margin-top: 0;
   color: #2ba6cb;
   font-size: 48px;
 }
-/* line 288, ../_assets/scss/bnb.scss */
+/* line 291, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper #content, .l-project #main-wrapper #content {
   text-align: left;
 }
-/* line 292, ../_assets/scss/bnb.scss */
+/* line 295, ../_assets/scss/bnb.scss */
 .l-default .rsGCaption, .l-project .rsGCaption {
   top: 80px;
   right: -25%;
   text-align: left;
 }
-/* line 297, ../_assets/scss/bnb.scss */
+/* line 300, ../_assets/scss/bnb.scss */
 .l-default .portfolio-slider, .l-project .portfolio-slider {
   margin-bottom: 35px;
 }
 
-/* line 305, ../_assets/scss/bnb.scss */
+/* line 308, ../_assets/scss/bnb.scss */
 .project-description ul {
   list-style: inherit;
   margin-left: 1.25em;

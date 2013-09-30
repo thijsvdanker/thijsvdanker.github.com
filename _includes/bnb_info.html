@@ -1,7 +1,7 @@
 <div id="company-name">
 	<div class="company-name-wrapper">
 		<div id="logo" {% if include.hidelogo == 'true' %} class="hide-for-small" {% endif %}><span>0110101</span><br />100101<br /><span>0110101</span></div>
-		<h1>Bits 'n Bolts</h1>
+		<h1>{% if include.link_to_home == 'true' %}<a href="/">Bits 'n Bolts</a>{% else %} Bits 'n Bolts{% endif %}</h1>
 	</div>
 </div>
 <h2>Freelance <strong>Drupal Development</strong></h2>
