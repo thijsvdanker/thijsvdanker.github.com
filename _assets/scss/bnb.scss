@@ -125,27 +125,35 @@ ul {
 #social-buttons {
   width:85px;
   }
+  .l-top #company-name #logo {
+    font-size:7px;
+    padding-top:9px;
+  }
 }
 @media only screen and (min-width: 768px) {
 
-.rsDefaultInv .rsGCaption {   
-  font-weight:700;
-  background:none;
-  top:50px;
-  bottom:auto;
-  width:250px;
-  text-align: left;
-  height:2em;
-  left:auto;
-  right:-30%;
-}
+  .rsDefaultInv .rsGCaption {   
+    font-weight:700;
+    background:none;
+    top:50px;
+    bottom:auto;
+    width:250px;
+    text-align: left;
+    height:2em;
+    left:auto;
+    right:-30%;
+  }
 
-.company-name-wrapper {
-  width:379px;
-}
-#social-buttons {
-  width:80px;
-}
+  .company-name-wrapper {
+    width:379px;
+  }
+  #social-buttons {
+    width:80px;
+  }
+  .l-top #company-name #logo {
+      font-size:8px;
+      padding-top:10px;
+  }
 }
 
 #logo {
@@ -183,10 +191,6 @@ ul {
   #company-name {
     h1 {
       font-size:32px;
-    }
-    #logo {
-      font-size:8px;
-      padding-top:10px;
     }
   }
 }
