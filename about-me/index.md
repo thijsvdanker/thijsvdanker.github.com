@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Bits n Bolts | About me
+title: About me
 published: true
 sitemap:
     priority: 0.7
     changefreq: monthly
     lastmod: 2013-09-30T12:49:30-05:00
+description: "I am Bits 'n Bolts: I provide Freelance Drupal Development. What else is there to say about me?"
 ---
 ![This is me](/img/me_on_camera.jpg)
 #_ About me
