@@ -79,11 +79,13 @@ $(document).foundation();
     autoScaleSliderHeight: 460,
     globalCaption: true,
     globalCaptionInside: false,
+    {% if page.animate %}
     autoPlay: {
-      // enabled: true,
-      // pauseOnHover: true,
-      // delay: 2500
+      enabled: true,
+      pauseOnHover: true,
+      delay: 3500
     },
+    {% endif %}
 
     /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
     imgWidth: 600,
