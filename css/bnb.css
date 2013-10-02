@@ -286,12 +286,12 @@ ul {
 
 /* line 245, ../_assets/scss/bnb.scss */
 .wf-loading #menu {
-  width: 199px;
+  width: 202px;
 }
 
 /* line 248, ../_assets/scss/bnb.scss */
 .wf-inactive #menu {
-  width: 199px;
+  width: 202px;
 }
 
 /* line 251, ../_assets/scss/bnb.scss */
@@ -299,7 +299,7 @@ ul {
   clear: both;
   height: 1em;
   font-size: 16px;
-  width: 199px;
+  width: 202x;
   margin-left: auto;
   margin-right: auto;
 }
