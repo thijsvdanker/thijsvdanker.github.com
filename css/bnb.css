@@ -159,9 +159,24 @@ ul {
     font-size: 240px;
     text-align: left;
   }
+
+  /* line 137, ../_assets/scss/bnb.scss */
+  .tk-daniel, .tk-daniel p {
+    font-family: "daniel",cursive;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+    font-size: 17px;
+  }
+
+  /* line 144, ../_assets/scss/bnb.scss */
+  #intro {
+    padding-top: 15px;
+    display: none;
+  }
 }
 @media only screen and (min-width: 768px) {
-  /* line 139, ../_assets/scss/bnb.scss */
+  /* line 152, ../_assets/scss/bnb.scss */
   .rsDefaultInv .rsGCaption {
     font-weight: 700;
     background: none;
@@ -174,29 +189,39 @@ ul {
     right: -30%;
   }
 
-  /* line 151, ../_assets/scss/bnb.scss */
+  /* line 164, ../_assets/scss/bnb.scss */
   .company-name-wrapper {
     width: 379px;
   }
 
-  /* line 154, ../_assets/scss/bnb.scss */
+  /* line 167, ../_assets/scss/bnb.scss */
   #social-buttons {
     width: 80px;
   }
 
-  /* line 157, ../_assets/scss/bnb.scss */
+  /* line 170, ../_assets/scss/bnb.scss */
   .l-top #company-name #logo {
     font-size: 8px;
     padding-top: 10px;
   }
 
-  /* line 161, ../_assets/scss/bnb.scss */
+  /* line 174, ../_assets/scss/bnb.scss */
   #contact-phone-big {
     font-size: 240px;
     text-align: center;
   }
+
+  /* line 178, ../_assets/scss/bnb.scss */
+  .tk-daniel, .tk-daniel p {
+    font-size: 25px;
+  }
+
+  /* line 181, ../_assets/scss/bnb.scss */
+  #intro {
+    padding-top: 30px;
+  }
 }
-/* line 167, ../_assets/scss/bnb.scss */
+/* line 186, ../_assets/scss/bnb.scss */
 #logo {
   text-align: right;
   font-size: 15px;
@@ -205,96 +230,96 @@ ul {
   margin-right: 10px;
 }
 
-/* line 177, ../_assets/scss/bnb.scss */
+/* line 196, ../_assets/scss/bnb.scss */
 #company-name {
   width: 100%;
   float: left;
   margin-top: 20px;
 }
-/* line 182, ../_assets/scss/bnb.scss */
+/* line 201, ../_assets/scss/bnb.scss */
 #company-name h1 {
   float: left;
   margin-top: 0;
 }
-/* line 186, ../_assets/scss/bnb.scss */
+/* line 205, ../_assets/scss/bnb.scss */
 #company-name a {
   color: #000;
 }
 
-/* line 191, ../_assets/scss/bnb.scss */
+/* line 210, ../_assets/scss/bnb.scss */
 .company-name-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 197, ../_assets/scss/bnb.scss */
+/* line 216, ../_assets/scss/bnb.scss */
 .l-top .company-name-wrapper {
   margin-left: inherit;
   margin-right: inherit;
   width: auto;
 }
-/* line 203, ../_assets/scss/bnb.scss */
+/* line 222, ../_assets/scss/bnb.scss */
 .l-top #company-name h1 {
   font-size: 32px;
 }
 
-/* line 208, ../_assets/scss/bnb.scss */
+/* line 227, ../_assets/scss/bnb.scss */
 #slider-in-laptop img {
   display: none;
 }
 
-/* line 211, ../_assets/scss/bnb.scss */
+/* line 230, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsContainer img {
   display: inherit;
 }
 
-/* line 217, ../_assets/scss/bnb.scss */
+/* line 236, ../_assets/scss/bnb.scss */
 #slider-in-laptop figure {
   display: none;
 }
 
-/* line 220, ../_assets/scss/bnb.scss */
+/* line 239, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsGCaption figure {
   display: inherit;
 }
 
-/* line 223, ../_assets/scss/bnb.scss */
+/* line 242, ../_assets/scss/bnb.scss */
 #contact li {
   float: none;
 }
-/* line 225, ../_assets/scss/bnb.scss */
+/* line 244, ../_assets/scss/bnb.scss */
 #contact li .e-mail, #contact li .phone-number {
   margin-left: 5px;
 }
-/* line 228, ../_assets/scss/bnb.scss */
+/* line 247, ../_assets/scss/bnb.scss */
 #contact li .foundicon-general-mail {
   color: #2ba6cb;
 }
-/* line 231, ../_assets/scss/bnb.scss */
+/* line 250, ../_assets/scss/bnb.scss */
 #contact li.phone {
   color: #000;
 }
-/* line 234, ../_assets/scss/bnb.scss */
+/* line 253, ../_assets/scss/bnb.scss */
 #contact li i {
   font-style: normal;
 }
 
-/* line 240, ../_assets/scss/bnb.scss */
+/* line 259, ../_assets/scss/bnb.scss */
 .l-project .project-excerpt {
   display: none;
 }
 
-/* line 245, ../_assets/scss/bnb.scss */
+/* line 264, ../_assets/scss/bnb.scss */
 .wf-loading #menu {
   width: 202px;
 }
 
-/* line 248, ../_assets/scss/bnb.scss */
+/* line 267, ../_assets/scss/bnb.scss */
 .wf-inactive #menu {
   width: 202px;
 }
 
-/* line 251, ../_assets/scss/bnb.scss */
+/* line 270, ../_assets/scss/bnb.scss */
 #menu {
   clear: both;
   height: 1em;
@@ -303,84 +328,69 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 258, ../_assets/scss/bnb.scss */
+/* line 277, ../_assets/scss/bnb.scss */
 #menu a {
   color: #000;
 }
-/* line 261, ../_assets/scss/bnb.scss */
+/* line 280, ../_assets/scss/bnb.scss */
 #menu li {
   float: left;
   border-left: 1px solid #000;
   padding: 0 5px;
   line-height: 1em;
 }
-/* line 266, ../_assets/scss/bnb.scss */
+/* line 285, ../_assets/scss/bnb.scss */
 #menu li.first {
   border-left: none;
 }
 
-/* line 273, ../_assets/scss/bnb.scss */
+/* line 292, ../_assets/scss/bnb.scss */
 .l-top #menu {
   margin-left: 0;
   font-size: 12px;
 }
-/* line 277, ../_assets/scss/bnb.scss */
+/* line 296, ../_assets/scss/bnb.scss */
 .l-top #menu li.first {
   padding-left: 0px;
 }
 
-/* line 285, ../_assets/scss/bnb.scss */
+/* line 304, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper, .l-project #main-wrapper {
   padding: 0;
   padding-top: 50px;
 }
-/* line 288, ../_assets/scss/bnb.scss */
+/* line 307, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper h1, .l-project #main-wrapper h1 {
   margin-top: 0;
   color: #2ba6cb;
   font-size: 48px;
 }
-/* line 293, ../_assets/scss/bnb.scss */
+/* line 312, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper #content, .l-project #main-wrapper #content {
   text-align: left;
 }
-/* line 297, ../_assets/scss/bnb.scss */
+/* line 316, ../_assets/scss/bnb.scss */
 .l-default .rsGCaption, .l-project .rsGCaption {
   top: 80px;
   right: -25%;
   text-align: left;
 }
-/* line 302, ../_assets/scss/bnb.scss */
+/* line 321, ../_assets/scss/bnb.scss */
 .l-default .portfolio-slider, .l-project .portfolio-slider {
   margin-bottom: 35px;
 }
 
-/* line 307, ../_assets/scss/bnb.scss */
+/* line 326, ../_assets/scss/bnb.scss */
 .wf-loading .tk-daniel, .wf-loading .tk-daniel p {
   display: none;
 }
 
-/* line 310, ../_assets/scss/bnb.scss */
-.tk-daniel, .tk-daniel p {
-  font-family: "daniel",cursive;
-  font-style: normal;
-  font-weight: 400;
-  color: #fff;
-  font-size: 25px;
-}
-
-/* line 317, ../_assets/scss/bnb.scss */
-#intro {
-  padding-top: 30px;
-  display: none;
-}
-
-/* line 321, ../_assets/scss/bnb.scss */
-.wf-active #intro {
+/* line 330, ../_assets/scss/bnb.scss */
+.wf-active #intro, .wf-inactive #intro {
   display: inherit;
 }
 
-/* line 327, ../_assets/scss/bnb.scss */
+/* line 336, ../_assets/scss/bnb.scss */
 .project-description ul {
   list-style: inherit;
   margin-left: 1.25em;

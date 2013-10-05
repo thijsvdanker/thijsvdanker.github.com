@@ -133,6 +133,19 @@ ul {
     font-size:240px;
     text-align: left;
   }
+
+  .tk-daniel, .tk-daniel p {
+  font-family: "daniel",cursive;
+  font-style: normal;
+  font-weight: 400;
+  color:#fff;
+  font-size:17px;
+}
+#intro {
+  padding-top:15px;
+  display:none;
+}
+
 }
 @media only screen and (min-width: 768px) {
 
@@ -162,6 +175,12 @@ ul {
     font-size:240px;
     text-align: center;
   }
+  .tk-daniel, .tk-daniel p {
+  font-size:25px;
+}
+#intro {
+  padding-top:30px;
+}
 }
 
 #logo {
@@ -307,18 +326,8 @@ ul {
 .wf-loading .tk-daniel, .wf-loading .tk-daniel p {
   display:none;
 }
-.tk-daniel, .tk-daniel p {
-  font-family: "daniel",cursive;
-  font-style: normal;
-  font-weight: 400;
-  color:#fff;
-  font-size:25px;
-}
-#intro {
-  padding-top:30px;
-  display:none;
-}
-.wf-active #intro {
+
+.wf-active #intro, .wf-inactive #intro {
   display:inherit;
 }
 
