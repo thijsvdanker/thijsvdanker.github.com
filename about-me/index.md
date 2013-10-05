@@ -19,5 +19,5 @@ When you're good to go, I can develop the front-end (client facing website) and 
 
 I enjoy working on projects and with people that are drivin, passionate.... ok really, does anyone write on their website that they love working on dull projects that no one cares about?
 
-Give me a call and lets have coffee. I'll tell you all about me that you wan't to know!
+Give me a <a href="/contact/">call</a> and lets have coffee. I'll tell you all about me that you wan't to know!
 
