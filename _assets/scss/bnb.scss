@@ -316,6 +316,10 @@ ul {
 }
 #intro {
   padding-top:30px;
+  display:none;
+}
+.wf-active #intro {
+  display:inherit;
 }
 
 

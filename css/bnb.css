@@ -372,9 +372,15 @@ ul {
 /* line 317, ../_assets/scss/bnb.scss */
 #intro {
   padding-top: 30px;
+  display: none;
 }
 
-/* line 323, ../_assets/scss/bnb.scss */
+/* line 321, ../_assets/scss/bnb.scss */
+.wf-active #intro {
+  display: inherit;
+}
+
+/* line 327, ../_assets/scss/bnb.scss */
 .project-description ul {
   list-style: inherit;
   margin-left: 1.25em;
