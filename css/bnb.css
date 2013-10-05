@@ -356,6 +356,11 @@ ul {
 }
 
 /* line 307, ../_assets/scss/bnb.scss */
+.wf-loading .tk-daniel, .wf-loading .tk-daniel p {
+  display: none;
+}
+
+/* line 310, ../_assets/scss/bnb.scss */
 .tk-daniel, .tk-daniel p {
   font-family: "daniel",cursive;
   font-style: normal;
@@ -364,12 +369,12 @@ ul {
   font-size: 25px;
 }
 
-/* line 314, ../_assets/scss/bnb.scss */
+/* line 317, ../_assets/scss/bnb.scss */
 #intro {
   padding-top: 30px;
 }
 
-/* line 320, ../_assets/scss/bnb.scss */
+/* line 323, ../_assets/scss/bnb.scss */
 .project-description ul {
   list-style: inherit;
   margin-left: 1.25em;
