@@ -259,6 +259,14 @@ ul {
   .project-excerpt {
     display:none;
   }
+  h1 {
+    font-size:45px;
+    margin-top:81px;
+  }
+}
+
+.align-right {
+  text-align: right;
 }
 
 .wf-loading #menu {
@@ -276,6 +284,7 @@ ul {
   margin-right:auto;
   a {
     color:#000;
+    text-decoration: underline;
   }
  li {
   float:left;
