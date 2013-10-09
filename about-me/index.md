@@ -17,7 +17,7 @@ With Bits 'n Bolts, I provide freelance [Drupal](http://www.drupal.org "Drupal")
 I can give feedback on your concepts and design from a technical point of view.
 When you're good to go, I can develop the front-end (client facing website) and the backend (Content Management System).
 
-I enjoy working on projects and with people that are drivin, passionate.... ok really, does anyone write on their website that they love working on dull projects that no one cares about?
+I enjoy working on projects that push the boundaries, and with people that are drivin and passionate about what they do.
 
 Give me a <a href="/contact/">call</a> and lets have coffee. I'll tell you all about me that you wan't to know!
 
