@@ -321,12 +321,12 @@ ul {
 
 /* line 272, ../_assets/scss/bnb.scss */
 .wf-loading #menu {
-  width: 204px;
+  width: 275px;
 }
 
 /* line 275, ../_assets/scss/bnb.scss */
 .wf-inactive #menu {
-  width: 204px;
+  width: 260px;
 }
 
 /* line 278, ../_assets/scss/bnb.scss */
@@ -334,7 +334,7 @@ ul {
   clear: both;
   height: 1em;
   font-size: 16px;
-  width: 204px;
+  width: 275px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -405,4 +405,24 @@ ul {
 .project-description ul {
   list-style: inherit;
   margin-left: 1.25em;
+}
+
+/* line 352, ../_assets/scss/bnb.scss */
+.portfolio-item.row {
+  padding: 20px 0;
+  border-bottom: 1px solid #ababab;
+}
+/* line 356, ../_assets/scss/bnb.scss */
+.portfolio-item .more-link {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+}
+/* line 361, ../_assets/scss/bnb.scss */
+.portfolio-item .terms {
+  padding: 10px 0;
+}
+/* line 363, ../_assets/scss/bnb.scss */
+.portfolio-item .terms span {
+  font-style: italic;
 }

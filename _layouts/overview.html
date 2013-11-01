@@ -1,0 +1,40 @@
+{% include header.html %}
+<body class="l-default">
+  <div class="l-top">
+  	<div class="row">
+      <div class="large-3 columns push-9">
+        {% include bnb_info.html link_to_home="true" %}
+        {% include menu.html %}
+      </div>
+      <div class="large-6 large-offset-3 columns pull-3">
+        <h1>Portfolio</h1>
+        <div class="quote">A little taste of my work.</div>
+      </div>
+  	</div>
+  </div>
+  <div id="main-wrapper">
+    <div id="main-container" class="row">
+      <main role="main">
+        <div id="content">
+          <div class="large-12 columns">
+            <div class="row">
+              <div class="large-8 large-centered columns">
+                  {% for post in site.posts %}
+                  	{% if post.class == "project" %}
+	                  	<div class="small-12 columns">
+	                  		{% include portfolio-item.html link=post.url title=post.title thumbnail=post.thumbnail description=post.description terms=post.technology %}
+	                 	</div>
+                 	{% endif %}
+                  {% endfor %}
+                </div>
+              </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</main>
+</div>
+</div>
+
+{% include footer.html %}

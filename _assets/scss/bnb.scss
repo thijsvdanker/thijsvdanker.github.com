@@ -270,16 +270,16 @@ ul {
 }
 
 .wf-loading #menu {
-  width:204px;
+  width:275px;
 }
 .wf-inactive #menu {
-  width:204px;
+  width:260px;
 }
 #menu {
   clear:both;
   height:1em;
   font-size:16px;
-  width:204px;
+  width:275px;
   margin-left:auto;
   margin-right:auto;
   a {
@@ -345,5 +345,23 @@ ul {
   ul {
     list-style:inherit;
     margin-left:1.25em;
+  }
+}
+
+.portfolio-item {
+  &.row {
+    padding:20px 0;
+    border-bottom:1px solid #ababab;
+  }
+  .more-link {
+    position:absolute;
+    bottom:20px;
+    right:0;
+  }
+  .terms {
+    padding:10px 0;
+    span {
+      font-style:italic;
+   }
   }
 }
