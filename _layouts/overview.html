@@ -19,12 +19,10 @@
           <div class="large-12 columns">
             <div class="row">
               <div class="large-8 large-centered columns">
-                  {% for post in site.posts %}
-                  	{% if post.class == "project" %}
+                  {% for post in site.categories.projects %}
 	                  	<div class="small-12 columns">
 	                  		{% include portfolio-item.html link=post.url title=post.title thumbnail=post.thumbnail description=post.description terms=post.technology %}
 	                 	</div>
-                 	{% endif %}
                   {% endfor %}
                 </div>
               </div>

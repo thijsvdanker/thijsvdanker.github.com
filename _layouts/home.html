@@ -12,7 +12,9 @@
                 <img src="/img/laptop.png" class="imgBg" width="637" height="360" />
                 <div id="slider-in-laptop" class="royalSlider rsDefaultInv">
                   {% for post in site.posts %}
-                    {{post.excerpt}}
+                    {% if post.featured %}
+                     {{post.excerpt}}
+                    {% endif %}
                   {% endfor %}
                 </div>
               </div>
