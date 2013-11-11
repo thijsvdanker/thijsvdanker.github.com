@@ -465,30 +465,31 @@ h2 a, h3 a {
   margin-left: 1.25em;
 }
 
-/* line 400, ../_assets/scss/bnb.scss */
+/* line 398, ../_assets/scss/bnb.scss */
+.overview-item:first-of-type {
+  border-top: 1px solid #ababab;
+}
+
+/* line 402, ../_assets/scss/bnb.scss */
 .portfolio-item.row, .blog-item.row {
   padding: 20px 0;
   border-bottom: 1px solid #ababab;
 }
-/* line 403, ../_assets/scss/bnb.scss */
-.portfolio-item.row:nth-of-type(1), .blog-item.row:nth-of-type(1) {
-  border-top: 1px solid #ababab;
-}
-/* line 407, ../_assets/scss/bnb.scss */
+/* line 406, ../_assets/scss/bnb.scss */
 .portfolio-item .more-link, .blog-item .more-link {
   position: absolute;
   bottom: 20px;
   right: 0;
 }
-/* line 412, ../_assets/scss/bnb.scss */
+/* line 411, ../_assets/scss/bnb.scss */
 .portfolio-item .terms, .blog-item .terms {
   padding: 10px 0;
 }
-/* line 414, ../_assets/scss/bnb.scss */
+/* line 413, ../_assets/scss/bnb.scss */
 .portfolio-item .terms span, .blog-item .terms span {
   font-style: italic;
 }
-/* line 418, ../_assets/scss/bnb.scss */
+/* line 417, ../_assets/scss/bnb.scss */
 .portfolio-item h2, .blog-item h2 {
   font-weight: 700;
 }
