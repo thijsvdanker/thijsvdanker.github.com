@@ -97,40 +97,93 @@ h2 strong {
 }
 
 /* line 82, ../_assets/scss/bnb.scss */
+h3 {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 50px;
+}
+/* line 87, ../_assets/scss/bnb.scss */
+h3 strong {
+  font-weight: 700;
+}
+
+/* line 91, ../_assets/scss/bnb.scss */
 ul {
   list-style: none;
 }
 
-/* line 85, ../_assets/scss/bnb.scss */
+/* line 95, ../_assets/scss/bnb.scss */
+.highlight {
+  background-color: #eee;
+  border: 1px solid #000;
+  padding: 5px;
+  overflow-x: scroll;
+}
+
+/* line 104, ../_assets/scss/bnb.scss */
+.blog-post #main-wrapper ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+/* line 108, ../_assets/scss/bnb.scss */
+.blog-post #main-wrapper ol {
+  margin-left: 20px;
+}
+/* line 111, ../_assets/scss/bnb.scss */
+.blog-post #main-wrapper h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* line 117, ../_assets/scss/bnb.scss */
+.date {
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* line 121, ../_assets/scss/bnb.scss */
+#comments {
+  border-top: 1px solid #000;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+/* line 126, ../_assets/scss/bnb.scss */
+h2 a, h3 a {
+  color: #000;
+}
+
+/* line 130, ../_assets/scss/bnb.scss */
 #social-buttons {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
 }
-/* line 91, ../_assets/scss/bnb.scss */
+/* line 136, ../_assets/scss/bnb.scss */
 #social-buttons a {
   color: #ccc;
 }
-/* line 97, ../_assets/scss/bnb.scss */
+/* line 142, ../_assets/scss/bnb.scss */
 #social-buttons a:hover {
   color: #2ba6cb;
 }
-/* line 101, ../_assets/scss/bnb.scss */
+/* line 146, ../_assets/scss/bnb.scss */
 #social-buttons ul {
   padding-bottom: 0px;
 }
-/* line 105, ../_assets/scss/bnb.scss */
+/* line 150, ../_assets/scss/bnb.scss */
 #social-buttons li {
   color: #c2c2c2;
   float: left;
   margin: 0 2px;
 }
-/* line 110, ../_assets/scss/bnb.scss */
+/* line 155, ../_assets/scss/bnb.scss */
 #social-buttons li:hover {
   color: #000;
 }
 
-/* line 116, ../_assets/scss/bnb.scss */
+/* line 161, ../_assets/scss/bnb.scss */
 .rsDefaultInv .rsGCaption {
   left: 15%;
   bottom: 13%;
@@ -138,29 +191,29 @@ ul {
 }
 
 @media only screen {
-  /* line 122, ../_assets/scss/bnb.scss */
+  /* line 167, ../_assets/scss/bnb.scss */
   .company-name-wrapper {
     width: 313px;
   }
 
-  /* line 125, ../_assets/scss/bnb.scss */
+  /* line 170, ../_assets/scss/bnb.scss */
   #social-buttons {
     width: 85px;
   }
 
-  /* line 128, ../_assets/scss/bnb.scss */
+  /* line 173, ../_assets/scss/bnb.scss */
   .l-top #company-name #logo {
     font-size: 7px;
     padding-top: 9px;
   }
 
-  /* line 132, ../_assets/scss/bnb.scss */
+  /* line 177, ../_assets/scss/bnb.scss */
   #contact-phone-big {
     font-size: 240px;
     text-align: left;
   }
 
-  /* line 137, ../_assets/scss/bnb.scss */
+  /* line 182, ../_assets/scss/bnb.scss */
   .tk-daniel, .tk-daniel p {
     font-family: "daniel",cursive;
     font-style: normal;
@@ -169,14 +222,14 @@ ul {
     font-size: 17px;
   }
 
-  /* line 144, ../_assets/scss/bnb.scss */
+  /* line 189, ../_assets/scss/bnb.scss */
   #intro {
     padding-top: 15px;
     display: none;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 152, ../_assets/scss/bnb.scss */
+  /* line 197, ../_assets/scss/bnb.scss */
   .rsDefaultInv .rsGCaption {
     font-weight: 700;
     background: none;
@@ -189,39 +242,39 @@ ul {
     right: -30%;
   }
 
-  /* line 164, ../_assets/scss/bnb.scss */
+  /* line 209, ../_assets/scss/bnb.scss */
   .company-name-wrapper {
     width: 379px;
   }
 
-  /* line 167, ../_assets/scss/bnb.scss */
+  /* line 212, ../_assets/scss/bnb.scss */
   #social-buttons {
     width: 80px;
   }
 
-  /* line 170, ../_assets/scss/bnb.scss */
+  /* line 215, ../_assets/scss/bnb.scss */
   .l-top #company-name #logo {
     font-size: 8px;
     padding-top: 10px;
   }
 
-  /* line 174, ../_assets/scss/bnb.scss */
+  /* line 219, ../_assets/scss/bnb.scss */
   #contact-phone-big {
     font-size: 240px;
     text-align: center;
   }
 
-  /* line 178, ../_assets/scss/bnb.scss */
+  /* line 223, ../_assets/scss/bnb.scss */
   .tk-daniel, .tk-daniel p {
     font-size: 25px;
   }
 
-  /* line 181, ../_assets/scss/bnb.scss */
+  /* line 226, ../_assets/scss/bnb.scss */
   #intro {
     padding-top: 30px;
   }
 }
-/* line 186, ../_assets/scss/bnb.scss */
+/* line 231, ../_assets/scss/bnb.scss */
 #logo {
   text-align: right;
   font-size: 15px;
@@ -230,106 +283,106 @@ ul {
   margin-right: 10px;
 }
 
-/* line 196, ../_assets/scss/bnb.scss */
+/* line 241, ../_assets/scss/bnb.scss */
 #company-name {
   width: 100%;
   float: left;
   margin-top: 20px;
 }
-/* line 201, ../_assets/scss/bnb.scss */
+/* line 246, ../_assets/scss/bnb.scss */
 #company-name h1 {
   float: left;
   margin-top: 0;
 }
-/* line 205, ../_assets/scss/bnb.scss */
+/* line 250, ../_assets/scss/bnb.scss */
 #company-name a {
   color: #000;
 }
 
-/* line 210, ../_assets/scss/bnb.scss */
+/* line 255, ../_assets/scss/bnb.scss */
 .company-name-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 216, ../_assets/scss/bnb.scss */
+/* line 261, ../_assets/scss/bnb.scss */
 .l-top .company-name-wrapper {
   margin-left: inherit;
   margin-right: inherit;
   width: auto;
 }
-/* line 222, ../_assets/scss/bnb.scss */
+/* line 267, ../_assets/scss/bnb.scss */
 .l-top #company-name h1 {
   font-size: 32px;
 }
 
-/* line 227, ../_assets/scss/bnb.scss */
+/* line 272, ../_assets/scss/bnb.scss */
 #slider-in-laptop img {
   display: none;
 }
 
-/* line 230, ../_assets/scss/bnb.scss */
+/* line 275, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsContainer img {
   display: inherit;
 }
 
-/* line 236, ../_assets/scss/bnb.scss */
+/* line 281, ../_assets/scss/bnb.scss */
 #slider-in-laptop figure {
   display: none;
 }
 
-/* line 239, ../_assets/scss/bnb.scss */
+/* line 284, ../_assets/scss/bnb.scss */
 #slider-in-laptop .rsGCaption figure {
   display: inherit;
 }
 
-/* line 242, ../_assets/scss/bnb.scss */
+/* line 287, ../_assets/scss/bnb.scss */
 #contact li {
   float: none;
 }
-/* line 244, ../_assets/scss/bnb.scss */
+/* line 289, ../_assets/scss/bnb.scss */
 #contact li .e-mail, #contact li .phone-number {
   margin-left: 5px;
 }
-/* line 247, ../_assets/scss/bnb.scss */
+/* line 292, ../_assets/scss/bnb.scss */
 #contact li .foundicon-general-mail {
   color: #2ba6cb;
 }
-/* line 250, ../_assets/scss/bnb.scss */
+/* line 295, ../_assets/scss/bnb.scss */
 #contact li.phone {
   color: #000;
 }
-/* line 253, ../_assets/scss/bnb.scss */
+/* line 298, ../_assets/scss/bnb.scss */
 #contact li i {
   font-style: normal;
 }
 
-/* line 259, ../_assets/scss/bnb.scss */
+/* line 304, ../_assets/scss/bnb.scss */
 .l-project .project-excerpt {
   display: none;
 }
-/* line 262, ../_assets/scss/bnb.scss */
+/* line 307, ../_assets/scss/bnb.scss */
 .l-project h1 {
   font-size: 45px;
   margin-top: 81px;
 }
 
-/* line 268, ../_assets/scss/bnb.scss */
+/* line 313, ../_assets/scss/bnb.scss */
 .align-right {
   text-align: right;
 }
 
-/* line 272, ../_assets/scss/bnb.scss */
+/* line 317, ../_assets/scss/bnb.scss */
 .wf-loading #menu {
   width: 275px;
 }
 
-/* line 275, ../_assets/scss/bnb.scss */
+/* line 320, ../_assets/scss/bnb.scss */
 .wf-inactive #menu {
   width: 260px;
 }
 
-/* line 278, ../_assets/scss/bnb.scss */
+/* line 323, ../_assets/scss/bnb.scss */
 #menu {
   clear: both;
   height: 1em;
@@ -338,91 +391,91 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 285, ../_assets/scss/bnb.scss */
+/* line 330, ../_assets/scss/bnb.scss */
 #menu a {
   color: #000;
   text-decoration: underline;
 }
-/* line 289, ../_assets/scss/bnb.scss */
+/* line 334, ../_assets/scss/bnb.scss */
 #menu li {
   float: left;
   border-left: 1px solid #000;
   padding: 0 5px;
   line-height: 1em;
 }
-/* line 294, ../_assets/scss/bnb.scss */
+/* line 339, ../_assets/scss/bnb.scss */
 #menu li.first {
   border-left: none;
 }
 
-/* line 301, ../_assets/scss/bnb.scss */
+/* line 346, ../_assets/scss/bnb.scss */
 .l-top #menu {
   margin-left: 0;
   font-size: 12px;
 }
-/* line 305, ../_assets/scss/bnb.scss */
+/* line 350, ../_assets/scss/bnb.scss */
 .l-top #menu li.first {
   padding-left: 0px;
 }
 
-/* line 313, ../_assets/scss/bnb.scss */
+/* line 358, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper, .l-project #main-wrapper {
   padding: 0;
   padding-top: 50px;
 }
-/* line 316, ../_assets/scss/bnb.scss */
+/* line 361, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper h1, .l-project #main-wrapper h1 {
   margin-top: 0;
   color: #2ba6cb;
   font-size: 48px;
 }
-/* line 321, ../_assets/scss/bnb.scss */
+/* line 366, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper #content, .l-project #main-wrapper #content {
   text-align: left;
 }
-/* line 325, ../_assets/scss/bnb.scss */
+/* line 370, ../_assets/scss/bnb.scss */
 .l-default .rsGCaption, .l-project .rsGCaption {
   top: 80px;
   right: -25%;
   text-align: left;
 }
-/* line 330, ../_assets/scss/bnb.scss */
+/* line 375, ../_assets/scss/bnb.scss */
 .l-default .portfolio-slider, .l-project .portfolio-slider {
   margin-bottom: 35px;
 }
 
-/* line 335, ../_assets/scss/bnb.scss */
+/* line 380, ../_assets/scss/bnb.scss */
 .wf-loading .tk-daniel, .wf-loading .tk-daniel p {
   display: none;
 }
 
-/* line 339, ../_assets/scss/bnb.scss */
+/* line 384, ../_assets/scss/bnb.scss */
 .wf-active #intro, .wf-inactive #intro {
   display: inherit;
 }
 
-/* line 345, ../_assets/scss/bnb.scss */
+/* line 390, ../_assets/scss/bnb.scss */
 .project-description ul {
   list-style: inherit;
   margin-left: 1.25em;
 }
 
-/* line 352, ../_assets/scss/bnb.scss */
+/* line 397, ../_assets/scss/bnb.scss */
 .portfolio-item.row {
   padding: 20px 0;
   border-bottom: 1px solid #ababab;
 }
-/* line 356, ../_assets/scss/bnb.scss */
+/* line 401, ../_assets/scss/bnb.scss */
 .portfolio-item .more-link {
   position: absolute;
   bottom: 20px;
   right: 0;
 }
-/* line 361, ../_assets/scss/bnb.scss */
+/* line 406, ../_assets/scss/bnb.scss */
 .portfolio-item .terms {
   padding: 10px 0;
 }
-/* line 363, ../_assets/scss/bnb.scss */
+/* line 408, ../_assets/scss/bnb.scss */
 .portfolio-item .terms span {
   font-style: italic;
 }

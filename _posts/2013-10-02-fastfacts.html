@@ -15,7 +15,7 @@ thumbnail: "fastfacts.jpg"
 <div class="project-excerpt">
 	<div itemscope itemtype="http://schema.org/SoftwareApplication">
 		<meta itemprop="applicationCategory" content="Website" />
-		<a itemprop="screenshot" class="rsImg" href="http://files.bitsnbolts.nl/img/fastfacts.jpg"></a>
+		<a itemprop="screenshot" class="rsImg" href="{{ site.filepath }}img/fastfacts.jpg"></a>
 		<figure class="rsCaption">
 			<h2>
 				<a href="{{ page.url }}">
@@ -25,7 +25,7 @@ thumbnail: "fastfacts.jpg"
 			<div class="hide-for-small">Science in the picture: great video content about science!<p><a href="{{ page.url }}">Read more</a></p></div>
 		</figure>
 		<a href="{{ page.url }}" class="rsLink"></a>
-		<meta itemprop="image" content="http://files.bitsnbolts.nl/img/fastfacts.jpg" />
+		<meta itemprop="image" content="{{ site.filepath }}img/fastfacts.jpg" />
 		<meta itemprop="url" content="http://www.fastfacts.nl" />
 		<div itemprop="author" itemscope itemtype="http://schema.org/Person">
 			<meta itemprop="name" content="Thijs van den Anker" />
@@ -39,11 +39,11 @@ thumbnail: "fastfacts.jpg"
 <!--more-->
 
  <div class="portfolio-slider laptopBg">
- 	<img src="http://files.bitsnbolts.nl/img/laptop.png" class="imgBg" width="637" height="360" />
+ 	<img src="{{ site.filepath }}img/laptop.png" class="imgBg" width="637" height="360" />
  	<div id="slider-in-laptop" class="royalSlider rsDefaultInv">
 		<div itemscope itemtype="http://schema.org/SoftwareApplication">
 			<meta itemprop="applicationCategory" content="Website" />
-			<img itemprop="screenshot" class="rsImg" src="http://files.bitsnbolts.nl/img/fastfacts.jpg" />
+			<img itemprop="screenshot" class="rsImg" src="{{ site.filepath }}img/fastfacts.jpg" />
 			<figure class="rsCaption">
 				<h2>
 					<a href="{{ page.url }}">
@@ -52,7 +52,7 @@ thumbnail: "fastfacts.jpg"
 				</h2>
 				<div class="hide-for-small">Science in the picture: great video content about science!<p></div>
 			</figure>
-			<meta itemprop="image" content="http://files.bitsnbolts.nl/img/bakkerspees.jpg" />
+			<meta itemprop="image" content="{{ site.filepath }}img/bakkerspees.jpg" />
 			<meta itemprop="url" content="{{ page.website }}" />
 			<div itemprop="author" itemscope itemtype="http://schema.org/Person">
 				<meta itemprop="name" content="Thijs van den Anker" />

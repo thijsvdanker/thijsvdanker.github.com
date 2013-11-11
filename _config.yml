@@ -5,6 +5,9 @@ permalink: none
 excerpt_seperator: <!--more-->
 phone-number: +31 (0)628346915
 email: thijs@bitsnbolts.nl
+future: false
 baseurl: http://bitsnbolts.nl
 title: Bits 'n Bolts
 description: Bits 'n Bolts provides professional freelance Drupal development.
+# filepath: http://localhost:4000/
+filepath: http://files.bitsnbolts.nl/
