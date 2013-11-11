@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog_post
 title:  "RoyalSlider module Intro"
 date:   3013-11-09 11:24:40
 categories: blog drupal

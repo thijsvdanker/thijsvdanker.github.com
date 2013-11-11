@@ -1,10 +1,16 @@
 ---
-layout: blog
+layout: blog_post
 title:  "Hello World"
 date:   2013-11-03 11:24:40
 categories: blog drupal
 featured: false
 permalink: blog/hello-world
+tags: 
+ - welcome
+ - bits 'n bolts
+ - drupal
+description: A big welcome to my blog and what you can expect of it in the future.
+thumbnail: "BnBLogo.jpg"
 ---
 <div class="project-excerpt">
 	<div id="intro" class="tk-daniel">

@@ -1,10 +1,17 @@
 ---
-layout: blog
+layout: blog_post
 title:  "Calendar module: use month names as pager"
-date:   2013-11-11 16:00:40
+date:   2013-11-11 10:00:40
 categories: blog drupal
 featured: false
 permalink: blog/calendar-month-names-as-pager
+tags:
+ - drupal 7
+ - calendar
+ - views
+ - how-to
+description: This blog post I will explain how you can get the name of the months in your calendar view pager instead of the default "prev" and "next" links.
+thumbnail: "calendar-pager-thumb.jpg"
 ---
 <div class="project-excerpt">
 	<div id="intro" class="tk-daniel">

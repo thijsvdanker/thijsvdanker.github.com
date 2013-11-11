@@ -1,0 +1,37 @@
+{% include header.html %}
+<body class="l-project blog-post">
+  <div class="l-top">
+    <div class="row">
+      <div class="large-3 columns push-9">
+        {% include bnb_info.html link_to_home="true" %}
+        {% include menu.html %}
+      </div>
+      <div class="large-7 large-offset-2 columns pull-3 hide-for-small">
+        <h1>{{ page.title }}</h1>
+        <span class="date">Posted: {{ page.date | date: "%-d %B %Y" }}</span>
+      </div>
+    </div>
+  </div>
+  <div id="main-wrapper">
+    <div id="main-container" class="row">
+      <main role="main">
+        <div id="content">
+          <div class="large-12 columns">
+            <div class="row">
+              <div class="large-8 large-offset-2 columns">
+              <div id="content">
+                {{content}}
+           </div>
+           <div id="comments">
+            {% include disqus.html %}
+            <div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+</main>
+</div>
+</div>
+
+{% include footer.html %}

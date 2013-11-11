@@ -1,16 +1,16 @@
 {% include header.html %}
-<body class="l-project blog-post">
+<body class="l-default">
   <div class="l-top">
-    <div class="row">
+  	<div class="row">
       <div class="large-3 columns push-9">
         {% include bnb_info.html link_to_home="true" %}
         {% include menu.html %}
       </div>
-      <div class="large-7 large-offset-2 columns pull-3 hide-for-small">
-        <h1>{{ page.title }}</h1>
-        <span class="date">Posted: {{ page.date | date: "%-d %B %Y" }}</span>
+      <div class="large-6 large-offset-3 columns pull-3">
+        <h1>Bits 'n Bolts Blog</h1>
+        <div class="quote">"Knowledge is power. Knowledge shared is power multiplied." - Robert Noyce</div>
       </div>
-    </div>
+  	</div>
   </div>
   <div id="main-wrapper">
     <div id="main-container" class="row">
@@ -18,13 +18,14 @@
         <div id="content">
           <div class="large-12 columns">
             <div class="row">
-              <div class="large-8 large-offset-2 columns">
-              <div id="content">
-                {{content}}
-           </div>
-           <div id="comments">
-            {% include disqus.html %}
-            <div>
+              <div class="large-8 large-centered columns">
+                  {% for post in site.categories.blog %}
+	                  	<div class="small-12 columns">
+	                  		{% include blog-item.html link=post.url title=post.title thumbnail=post.thumbnail description=post.description terms=post.tags date=post.date %}
+	                 	</div>
+                  {% endfor %}
+                </div>
+              </div>
          </div>
        </div>
      </div>
