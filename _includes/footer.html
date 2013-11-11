@@ -27,16 +27,64 @@ ga('send', 'pageview');
 </script>
 
 <script class="rs-file" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script class="rs-file" src="{{ site.filepath }}js/vendor/royalslider/jquery.royalslider.min.js"></script>
 
-<script src="{{ site.filepath }}js/foundation.min.js"></script>
 <link rel="stylesheet" href="{{ site.filepath }}css/github.css">
-<script></script>
 <script async src="{{ site.filepath }}js/vendor/custom.modernizr.js"></script>
 <script>
-$(document).foundation();
+
 </script>
 <script id="addJS">jQuery(document).ready(function($) {
+    $.ajax({
+    url: '{{ site.filepath }}js/foundation.min.js',
+    dataType: 'script',
+    cache: true, // otherwise will get fresh copy every page load
+    success: function() {
+      $(document).foundation();
+    }
+  });
+  $.ajax({
+    url: '{{ site.filepath }}js/vendor/royalslider/jquery.royalslider.min.js',
+    dataType: 'script',
+    cache: true, // otherwise will get fresh copy every page load
+    success: function() {
+        var rsi = $('#slider-in-laptop').royalSlider({
+        autoHeight: false,
+        arrowsNav: false,
+        fadeinLoadedSlide: false,
+        controlNavigationSpacing: 0,
+        controlNavigation: 'bullets',
+        imageScaleMode: 'fill',
+        imageAlignCenter: true,
+        loop: true,
+        loopRewind: false,
+        numImagesToPreload: 1,
+        keyboardNavEnabled: true,
+        autoScaleSlider: true,  
+        autoScaleSliderWidth: 600,     
+        autoScaleSliderHeight: 460,
+        globalCaption: true,
+        globalCaptionInside: false,
+        autoPlay: {
+          enabled: true,
+          pauseOnHover: true,
+          delay: 4000
+        },
+
+        /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+        imgWidth: 600,
+        imgHeight: 400
+
+
+
+      }).data('royalSlider');
+      $('#slider-next').click(function() {
+        rsi.next();
+      });
+      $('#slider-prev').click(function() {
+        rsi.prev();
+      });
+    }
+  });
     $.ajax({
     url: '{{ site.filepath }}js/highlight.pack.js',
     dataType: 'script',
@@ -45,42 +93,8 @@ $(document).foundation();
       hljs.initHighlightingOnLoad();
     }
   });
-  var rsi = $('#slider-in-laptop').royalSlider({
-    autoHeight: false,
-    arrowsNav: false,
-    fadeinLoadedSlide: false,
-    controlNavigationSpacing: 0,
-    controlNavigation: 'bullets',
-    imageScaleMode: 'fill',
-    imageAlignCenter: true,
-    loop: true,
-    loopRewind: false,
-    numImagesToPreload: 1,
-    keyboardNavEnabled: true,
-    autoScaleSlider: true,  
-    autoScaleSliderWidth: 600,     
-    autoScaleSliderHeight: 460,
-    globalCaption: true,
-    globalCaptionInside: false,
-    autoPlay: {
-      enabled: true,
-      pauseOnHover: true,
-      delay: 4000
-    },
-
-    /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
-    imgWidth: 600,
-    imgHeight: 400
 
 
-
-  }).data('royalSlider');
-  $('#slider-next').click(function() {
-    rsi.next();
-  });
-  $('#slider-prev').click(function() {
-    rsi.prev();
-  });
 });
 </script>
 </body>
