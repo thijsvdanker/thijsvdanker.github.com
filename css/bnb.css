@@ -484,3 +484,7 @@ h2 a, h3 a {
 .portfolio-item .terms span, .blog-item .terms span {
   font-style: italic;
 }
+/* line 415, ../_assets/scss/bnb.scss */
+.portfolio-item h2, .blog-item h2 {
+  font-weight: 700;
+}
