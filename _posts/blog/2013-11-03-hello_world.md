@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title:  "Hello World"
-date:   2013-11-11 11:24:40
+date:   2013-11-10 11:24:40
 categories: blog drupal
 featured: false
 permalink: blog/hello-world
