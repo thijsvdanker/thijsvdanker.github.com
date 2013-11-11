@@ -1,0 +1,22 @@
+{
+  "name": "bitsnbolts",
+  "version": "0.1.0",
+  "description": "Bits n Bolts website",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thijsvdanker/thijsvdanker.github.com.git"
+  },
+  "author": "thijs van den anker",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/thijsvdanker/thijsvdanker.github.com/issues"
+  },
+  "homepage": "https://github.com/thijsvdanker/thijsvdanker.github.com",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-compress": "~0.5.2"
+  }
+}
