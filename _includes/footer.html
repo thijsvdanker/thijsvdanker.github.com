@@ -25,18 +25,26 @@ ga('send', 'pageview');
   var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
 })();
 </script>
+
 <script class="rs-file" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script class="rs-file" src="{{ site.filepath }}js/vendor/royalslider/jquery.royalslider.min.js"></script>
 
 <script src="{{ site.filepath }}js/foundation.min.js"></script>
 <link rel="stylesheet" href="{{ site.filepath }}css/github.css">
-<script src="{{ site.filepath }}js/highlight.pack.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
-<script src="{{ site.filepath }}js/vendor/custom.modernizr.js"></script>
+<script></script>
+<script async src="{{ site.filepath }}js/vendor/custom.modernizr.js"></script>
 <script>
 $(document).foundation();
 </script>
 <script id="addJS">jQuery(document).ready(function($) {
+    $.ajax({
+    url: '{{ site.filepath }}js/highlight.pack.js',
+    dataType: 'script',
+    cache: true, // otherwise will get fresh copy every page load
+    success: function() {
+      hljs.initHighlightingOnLoad();
+    }
+  }
   var rsi = $('#slider-in-laptop').royalSlider({
     autoHeight: false,
     arrowsNav: false,
