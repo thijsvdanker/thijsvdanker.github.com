@@ -93,11 +93,10 @@ ga('send', 'pageview');
       hljs.initHighlightingOnLoad();
     }
   });
-
+  $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '{{ site.filepath }}css/github.css') );
 
 });
 </script>
 </body>
 
 </html>
-<noscript><link rel="stylesheet" href="{{ site.filepath }}css/github.css"></noscript>
