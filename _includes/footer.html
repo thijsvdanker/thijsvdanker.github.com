@@ -86,11 +86,11 @@ ga('send', 'pageview');
     }
   });
     $.ajax({
-    url: '{{ site.filepath }}js/highlight.pack.js',
+    url: '{{ site.filepath }}js/bitsnbolts.min.js',
     dataType: 'script',
     cache: true, // otherwise will get fresh copy every page load
     success: function() {
-      hljs.initHighlightingOnLoad();
+      //
     }
   });
   $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '{{ site.filepath }}css/github.css') );
