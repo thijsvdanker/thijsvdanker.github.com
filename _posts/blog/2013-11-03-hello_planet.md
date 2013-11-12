@@ -1,10 +1,10 @@
 ---
 layout: blog_post
-title:  "Hello World"
+title:  "Hello Planet"
 date:   2013-11-10 11:24:40
 categories: blog drupal
 featured: false
-permalink: blog/hello-world
+permalink: blog/hello-planet
 tags: 
  - welcome
  - bits 'n bolts
