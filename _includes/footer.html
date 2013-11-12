@@ -29,13 +29,13 @@ ga('send', 'pageview');
 <script class="rs-file" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
 
-<script async src="{{ site.filepath }}js/vendor/custom.modernizr.js.gz"></script>
+<script async src="{{ site.filepath }}js/contrib/custom.modernizr.js.gz"></script>
 <script>
 
 </script>
 <script id="addJS">jQuery(document).ready(function($) {
     $.ajax({
-    url: '{{ site.filepath }}js/foundation.min.js.gz',
+    url: '{{ site.filepath }}js/contrib/foundation.min.js.gz',
     dataType: 'script',
     cache: true, // otherwise will get fresh copy every page load
     success: function() {
@@ -43,7 +43,7 @@ ga('send', 'pageview');
     }
   });
   $.ajax({
-    url: '{{ site.filepath }}js/vendor/royalslider/jquery.royalslider.min.js.gz',
+    url: '{{ site.filepath }}js/contrib/royalslider/jquery.royalslider.min.js.gz',
     dataType: 'script',
     cache: true, // otherwise will get fresh copy every page load
     success: function() {
