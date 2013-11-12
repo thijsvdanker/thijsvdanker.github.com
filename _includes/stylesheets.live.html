@@ -28,6 +28,12 @@ stylesheet.type = 'text/css';
 document.getElementsByTagName('head')[0].appendChild(stylesheet);
 
 var stylesheet = document.createElement('link');
+stylesheet.href = '{{ site.filepath }}css/contrib/royalslider.css';
+stylesheet.rel = 'stylesheet';
+stylesheet.type = 'text/css';
+
+document.getElementsByTagName('head')[0].appendChild(stylesheet);
+var stylesheet = document.createElement('link');
 stylesheet.href = '{{ site.filepath }}css/skins/default-inverted/rs-default-inverted.css.gz';
 stylesheet.rel = 'stylesheet';
 stylesheet.type = 'text/css';
