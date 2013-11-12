@@ -8,41 +8,42 @@
 // 	'{{ site.filepath }}css/bnb.css.gz',
 // 	'{{ site.filepath }}css/contrib/github.css.gz'
 // 	);
+window.onload = function() {
+	var stylesheet = document.createElement('link');
+	stylesheet.href = '{{ site.filepath }}css/contrib/foundation.min.css.gz';
+	stylesheet.rel = 'stylesheet';
+	stylesheet.type = 'text/css';
+	document.getElementsByTagName('head')[0].appendChild(stylesheet);
 
-var stylesheet = document.createElement('link');
-stylesheet.href = '{{ site.filepath }}css/contrib/foundation.min.css.gz';
-stylesheet.rel = 'stylesheet';
-stylesheet.type = 'text/css';
-document.getElementsByTagName('head')[0].appendChild(stylesheet);
+	var stylesheet = document.createElement('link');
+	stylesheet.href = '{{ site.filepath }}css/contrib/social_foundicons.css.gz';
+	stylesheet.rel = 'stylesheet';
+	stylesheet.type = 'text/css';
+	document.getElementsByTagName('head')[0].appendChild(stylesheet);
 
-var stylesheet = document.createElement('link');
-stylesheet.href = '{{ site.filepath }}css/contrib/social_foundicons.css.gz';
-stylesheet.rel = 'stylesheet';
-stylesheet.type = 'text/css';
-document.getElementsByTagName('head')[0].appendChild(stylesheet);
+	var stylesheet = document.createElement('link');
+	stylesheet.href = '{{ site.filepath }}css/contrib/general_foundicons.css.gz';
+	stylesheet.rel = 'stylesheet';
+	stylesheet.type = 'text/css';
+	document.getElementsByTagName('head')[0].appendChild(stylesheet);
 
-var stylesheet = document.createElement('link');
-stylesheet.href = '{{ site.filepath }}css/contrib/general_foundicons.css.gz';
-stylesheet.rel = 'stylesheet';
-stylesheet.type = 'text/css';
-document.getElementsByTagName('head')[0].appendChild(stylesheet);
+	var stylesheet = document.createElement('link');
+	stylesheet.href = '{{ site.filepath }}css/skins/default-inverted/rs-default-inverted.css.gz';
+	stylesheet.rel = 'stylesheet';
+	stylesheet.type = 'text/css';
+	document.getElementsByTagName('head')[0].appendChild(stylesheet);
 
-var stylesheet = document.createElement('link');
-stylesheet.href = '{{ site.filepath }}css/skins/default-inverted/rs-default-inverted.css.gz';
-stylesheet.rel = 'stylesheet';
-stylesheet.type = 'text/css';
-document.getElementsByTagName('head')[0].appendChild(stylesheet);
+	var stylesheet = document.createElement('link');
+	stylesheet.href = '{{ site.filepath }}css/bnb.css.gz';
+	stylesheet.rel = 'stylesheet';
+	stylesheet.type = 'text/css';
+	document.getElementsByTagName('head')[0].appendChild(stylesheet);
 
-var stylesheet = document.createElement('link');
-stylesheet.href = '{{ site.filepath }}css/bnb.css.gz';
-stylesheet.rel = 'stylesheet';
-stylesheet.type = 'text/css';
-document.getElementsByTagName('head')[0].appendChild(stylesheet);
-
-var stylesheet = document.createElement('link');
-stylesheet.href = '{{ site.filepath }}css/contrib/github.css.gz';
-stylesheet.rel = 'stylesheet';
-stylesheet.type = 'text/css';
-document.getElementsByTagName('head')[0].appendChild(stylesheet);
+	var stylesheet = document.createElement('link');
+	stylesheet.href = '{{ site.filepath }}css/contrib/github.css.gz';
+	stylesheet.rel = 'stylesheet';
+	stylesheet.type = 'text/css';
+	document.getElementsByTagName('head')[0].appendChild(stylesheet);
+}
 </script>
 
