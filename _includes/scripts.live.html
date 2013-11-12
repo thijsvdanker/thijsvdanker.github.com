@@ -1,0 +1,53 @@
+<script>
+head.load(
+	'//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js',
+	'{{ site.filepath }}js/contrib/foundation.min.js.gz',
+	'{{ site.filepath }}js/contrib/custom.modernizr.js.gz',
+	'{{ site.filepath }}js/contrib/highlight.pack.js.gz',
+	'{{ site.filepath }}js/contrib/royalslider/jquery.royalslider.min.js.gz'
+	);
+
+
+head.ready(function () {
+	$(document).foundation();
+	hljs.initHighlightingOnLoad();
+
+	  var rsi = $('#slider-in-laptop').royalSlider({
+	  autoHeight: false,
+	  arrowsNav: false,
+	  fadeinLoadedSlide: false,
+	  controlNavigationSpacing: 0,
+	  controlNavigation: 'bullets',
+	  imageScaleMode: 'fill',
+	  imageAlignCenter: true,
+	  loop: true,
+	  loopRewind: false,
+	  numImagesToPreload: 1,
+	  keyboardNavEnabled: true,
+	  autoScaleSlider: true,  
+	  autoScaleSliderWidth: 600,     
+	  autoScaleSliderHeight: 460,
+	  globalCaption: true,
+	  globalCaptionInside: false,
+	  autoPlay: {
+	    enabled: true,
+	    pauseOnHover: true,
+	    delay: 4000
+	  },
+
+	  /* size of all images http://help.dimsemenov.com/kb/royalslider-jquery-plugin-faq/adding-width-and-height-properties-to-images */
+	  imgWidth: 600,
+	  imgHeight: 400
+
+
+
+	}).data('royalSlider');
+	$('#slider-next').click(function() {
+	  rsi.next();
+	});
+	$('#slider-prev').click(function() {
+	  rsi.prev();
+	});
+
+});
+</script>

@@ -1,4 +1,4 @@
-gem "jekyll-asset-pipeline", "=0.1.5"
+gem "jekyll-asset-pipeline", "=0.1.6"
 require "jekyll_asset_pipeline"
 
 module JekyllAssetPipeline

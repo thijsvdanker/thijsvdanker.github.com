@@ -16,7 +16,7 @@
 }
 
 /* global foundicon styles */
-/* line 7, ../../_assets/scss/vendor/social_foundicons.scss */
+/* line 7, ../../_assets/scss/contrib/social_foundicons.scss */
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -28,7 +28,7 @@
   background-repeat: repeat;
 }
 
-/* line 17, ../../_assets/scss/vendor/social_foundicons.scss */
+/* line 17, ../../_assets/scss/contrib/social_foundicons.scss */
 [class*="foundicon-"]:before {
   font-family: "SocialFoundicons";
   font-weight: normal;

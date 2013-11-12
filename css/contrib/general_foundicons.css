@@ -16,7 +16,7 @@
 }
 
 /* global foundicon styles */
-/* line 7, ../../_assets/scss/vendor/general_foundicons.scss */
+/* line 7, ../../_assets/scss/contrib/general_foundicons.scss */
 [class*="foundicon-general-"] {
   display: inline;
   width: auto;
@@ -28,7 +28,7 @@
   background-repeat: repeat;
 }
 
-/* line 17, ../../_assets/scss/vendor/general_foundicons.scss */
+/* line 17, ../../_assets/scss/contrib/general_foundicons.scss */
 [class*="foundicon-general-"]:before {
   font-family: "GeneralFoundicons";
   font-weight: normal;

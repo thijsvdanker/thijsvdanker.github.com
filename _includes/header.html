@@ -33,15 +33,7 @@
   <link rel="author" href="https://plus.google.com/115184840382790960084"/>
   <meta name="viewport" content="width=device-width">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="{{ site.filepath }}css/contrib/social_foundicons.css.gz">
-  <link rel="stylesheet" href="{{ site.filepath }}css/contrib/general_foundicons.css.gz">
-  <link class="rs-file" href="{{ site.filepath }}css/contrib/royalslider.css.gz" rel="stylesheet">
-  <!-- slider stylesheets -->
-  <link class="rs-file" href="{{ site.filepath }}css/skins/default-inverted/rs-default-inverted.css.gz" rel="stylesheet">
 
-  <link rel="stylesheet" href="{{ site.filepath }}css/contrib/foundation.min.css.gz">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="{{ site.filepath }}css/bnb.css.gz">
   <style>
   .wf-loading h1, .wf-loading h2, .wf-loading .rsGCaption .wf-active #company-name {
     visibility: hidden;
@@ -50,4 +42,10 @@
     visibility: visible;
   }
   </style>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.1/head.load.min.js"></script>
+  {% if site.environment == 'dev' %}
+    {% include stylesheets.dev.html %}
+  {% else %}
+    {% include stylesheets.live.html %}
+  {% endif %}
 </head>
