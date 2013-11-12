@@ -20,8 +20,8 @@ module.exports = function(grunt) {
         files: [
           // Each of the files in the src/ folder will be output to
           // the dist/ folder each with the extension .gz.js
-          {expand: true, cwd: 'js/', src: ['**/*'], dest: 'deploy/js/'},
-          {expand: true, cwd: 'css/', src: ['**/*.css'], dest: 'deploy/css/'}
+          {expand: true, cwd: 'js/', src: ['**/*'], dest: 'contrib/js/'},
+          {expand: true, cwd: 'css/', src: ['**/*.css'], dest: 'contrib/css/'}
         ]
       }
     },
