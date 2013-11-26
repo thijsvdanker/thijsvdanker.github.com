@@ -43,7 +43,7 @@ The web is awesome, you should try it ;)
 That's what I wanted to tell you about me. I'm not all work, no play. But that's not why you're here is it?
 
 ## Why blog
-Starting this blog is mostly inspspired by [Brian Braun's post](http://bryanbraun.com/2013/09/21/please-stop-stewing-and-start-blogging-about-drupal) on posting more little snippets and lessons learned.
+Starting this blog is mostly inspired by [Brian Braun's post](http://bryanbraun.com/2013/09/21/please-stop-stewing-and-start-blogging-about-drupal) on posting more little snippets and lessons learned.
 When working on projects for clients or developing on my own projects, I almost always learn new things.
 Some are more exciting then others, some may be new for me and old for you.. But as Randall Munroe (the XKCD guy) puts it:
 <div class="clear">
