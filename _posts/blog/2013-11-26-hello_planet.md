@@ -37,7 +37,7 @@ Summer of 2010. [Tim](http://www.timdj.nl), one of my partners at Dooping, woke 
 That was the beginning of [Fuzeo](http://www.fuzeo.com) where I and 4 others chase our vision of connecting the online and the offline world. My role in Fuzeo is that of lead-software development: making sure we are working on the right things, in the right way.
 Connecting online and offline worlds means dealing with people and their interactions at events. We developed a platform that supports these interactions in a flexible way. Drupal is a key part of that platform. The Fuzeo adventure is great, and a dream worth pursuing.
 
-This year I started Bits 'n Bolts - Freelance Drupal Development. Bits 'n Bolts allows me to put all my experience in webdevelopment and digital projects in general to good use, and make webdevelopment as pleasant for my clients as it should be.
+This year I started Bits 'n Bolts - Freelance Drupal Development. Bits 'n Bolts allows me to put all my experience in webdevelopment, and digital projects in general, to good use, and make webdevelopment as pleasant for my clients as it should be.
 The web is awesome, you should try it ;)
 
 That's what I wanted to tell you about me. I'm not all work, no play. But that's not why you're here is it?
