@@ -6,10 +6,10 @@ $fontNameGeneral: "GeneralFoundicons";
 $classPrefixGeneral: "foundicon-general-";
 
 @mixin i-class($name,$pua) {
-  .#{$classPrefix}#{$name}:before { 
+  .#{$classPrefixGeneral}#{$name}:before { 
     content: "\f#{$pua}";
   }
-  .#{$classPrefixGeneral}#{$name}:before { 
+  .#{$classPrefix}#{$name}:before { 
     content: "\f#{$pua}";
   }
 }

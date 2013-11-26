@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title:  "Calendar module: use month names as pager"
-date:   2013-11-11 16:00:40
+date:   2013-11-27 16:00:40
 categories: blog drupal
 featured: false
 permalink: blog/calendar-month-names-as-pager

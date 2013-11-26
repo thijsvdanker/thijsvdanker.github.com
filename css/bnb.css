@@ -476,20 +476,31 @@ h2 a, h3 a {
   border-bottom: 1px solid #ababab;
 }
 /* line 406, ../_assets/scss/bnb.scss */
+.portfolio-item img, .blog-item img {
+  width: 180px;
+  border: 1px solid #ddd;
+}
+/* line 410, ../_assets/scss/bnb.scss */
 .portfolio-item .more-link, .blog-item .more-link {
   position: absolute;
   bottom: 20px;
   right: 0;
 }
-/* line 411, ../_assets/scss/bnb.scss */
+/* line 415, ../_assets/scss/bnb.scss */
 .portfolio-item .terms, .blog-item .terms {
   padding: 10px 0;
 }
-/* line 413, ../_assets/scss/bnb.scss */
+/* line 417, ../_assets/scss/bnb.scss */
 .portfolio-item .terms span, .blog-item .terms span {
   font-style: italic;
 }
-/* line 417, ../_assets/scss/bnb.scss */
+/* line 421, ../_assets/scss/bnb.scss */
 .portfolio-item h2, .blog-item h2 {
   font-weight: 700;
+}
+
+/* line 425, ../_assets/scss/bnb.scss */
+.blog-post #content img {
+  border: 1px solid #666;
+  margin: 10px 0;
 }

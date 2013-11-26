@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title:  "Hello Planet"
-date:   2013-11-10 11:24:40
+date:   2013-11-26 09:00:40
 categories: blog drupal
 featured: false
 permalink: blog/hello-planet
@@ -27,13 +27,15 @@ Welcome to the Bits 'n Bolts blog.
 On this blog I will be talking about my learnings & findings during the development of projects for both myself and my clients. But before I'll talk about the things that I see and do, let me do a proper introduction of myself.
 
 ## About me
-This is me: [Thijs van den Anker](/about-me/) (aka [thijsvdanker](https://drupal.org/user/234472) at drupal.org), but when I open my macbook, or boot my Linux machine.. I Am __Bits 'n Bolts__! But becoming Bits 'n Bolts didn't happen overnight.
+This is me: [Thijs van den Anker](/about-me/) (aka [thijsvdanker](https://drupal.org/user/234472) at drupal.org), but when I open my MacBook, or boot my Linux machine (and take of my glasses).. I Am __Bits 'n Bolts__!
+![I am Bits 'n Bolts]({{ site.filepath}}img/superman_bnb_noslogan.jpg)
+But becoming Bits 'n Bolts didn't happen overnight.
 
-My professional carreer started when I graduated from university in 2007. I joined two of my friends and became a partner in [Dooping](http://www.dooping.nl), a creative web-agency. After using a homegrown CMS for some clients, we decided to jump on board with Drupal (5.x at that time).
+My professional carreer started when I graduated from university in 2007. I joined two of my friends and became a partner in [Dooping](http://www.dooping.nl), a creative web-agency. After using a homegrown CMS for some clients, we decided to join the Drupal community (5.x at that time), and for a couple of years crafted a big range of websites with it.
 
-[Tim](http://www.timdj.nl), one of my partners at Dooping, woke up one day after a great night of sleep in which he had a dream: walking around in museum in which all paintings had a physical Facebook like button.
+Summer of 2010. [Tim](http://www.timdj.nl), one of my partners at Dooping, woke up one day after a great night of sleep in which he had a dream: walking around in museum in which all paintings had a physical Facebook like button.
 That was the beginning of [Fuzeo](http://www.fuzeo.com) where my and 4 others chase our vision of connecting the online and the offline world. My role in Fuzeo is that of lead-software development: making sure we do the right thing, the right way.
-Connecting online and offline worlds deals with people and their interactions at events. We developed a platform that supports these interactions in a flexible way. Drupal is a key part of that platform. The Fuzeo adventure is great, and a dream worth persueing.
+Connecting online and offline worlds deals with people and their interactions at events. We developed a platform that supports these interactions in a flexible way. Drupal is a key part of that platform. The Fuzeo adventure is great, and a dream worth pursuing.
 
 This year I started Bits 'n Bolts - Freelance Drupal Development. Bits 'n Bolts allows me to put all my experience of webdevelopment and digital projects in general to good use, and make webdevelopment as pleasant for my clients as it should be.
 The web is awesome, you should try it ;)

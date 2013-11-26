@@ -403,6 +403,10 @@ h2 a, h3 a {
     padding:20px 0;
     border-bottom:1px solid #ababab;
   }
+  img {
+    width:180px;
+    border: 1px solid #ddd;
+  }
   .more-link {
     position:absolute;
     bottom:20px;
@@ -417,4 +421,8 @@ h2 a, h3 a {
   h2 {
     font-weight:700;
   }
+}
+.blog-post #content img{
+ border: 1px solid #666;
+ margin: 10px 0;
 }
