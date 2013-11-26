@@ -33,9 +33,9 @@ But becoming Bits 'n Bolts didn't happen overnight.
 
 My professional carreer started when I graduated from university in 2007. I joined two of my friends and became a partner in [Dooping](http://www.dooping.nl), a creative web-agency. After using a homegrown CMS for some clients, we decided to join the Drupal community (5.x at that time), and for a couple of years crafted a big range of websites with it.
 
-Summer of 2010. [Tim](http://www.timdj.nl), one of my partners at Dooping, woke up one day after a great night of sleep in which he had a dream: walking around in museum in which all paintings had a physical Facebook like button.
-That was the beginning of [Fuzeo](http://www.fuzeo.com) where my and 4 others chase our vision of connecting the online and the offline world. My role in Fuzeo is that of lead-software development: making sure we do the right thing, the right way.
-Connecting online and offline worlds deals with people and their interactions at events. We developed a platform that supports these interactions in a flexible way. Drupal is a key part of that platform. The Fuzeo adventure is great, and a dream worth pursuing.
+Summer of 2010. [Tim](http://www.timdj.nl), one of my partners at Dooping, woke up after a great night of sleep in which he had a dream: walking around in a museum in which all paintings had a physical Facebook like button.
+That was the beginning of [Fuzeo](http://www.fuzeo.com) where I and 4 others chase our vision of connecting the online and the offline world. My role in Fuzeo is that of lead-software development: making sure we are working on the right things, in the right way.
+Connecting online and offline worlds means dealing with people and their interactions at events. We developed a platform that supports these interactions in a flexible way. Drupal is a key part of that platform. The Fuzeo adventure is great, and a dream worth pursuing.
 
 This year I started Bits 'n Bolts - Freelance Drupal Development. Bits 'n Bolts allows me to put all my experience of webdevelopment and digital projects in general to good use, and make webdevelopment as pleasant for my clients as it should be.
 The web is awesome, you should try it ;)
