@@ -12,3 +12,4 @@ description: Bits 'n Bolts provides professional freelance Drupal development.
 # filepath: http://localhost:4000/
 filepath: http://files.bitsnbolts.nl/
 environment: live
+exclude: [node_modules]
