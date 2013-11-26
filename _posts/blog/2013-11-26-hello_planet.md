@@ -44,7 +44,7 @@ That's what I wanted to tell you about me. I'm not all work, no play. But that's
 
 ## Why blog
 Starting this blog is mostly inspired by [Brian Braun's post](http://bryanbraun.com/2013/09/21/please-stop-stewing-and-start-blogging-about-drupal) on posting more little snippets and lessons learned.
-When working on projects for clients or developing on my own projects, I almost always learn new things.
+When working on projects for clients or developing my own projects, I almost always learn new things.
 Some are more exciting then others, some may be new for me and old for you.. But as Randall Munroe (the XKCD guy) puts it:
 <div class="clear">
 [<img src="http://imgs.xkcd.com/comics/wisdom_of_the_ancients.png">](http://xkcd.com/979/)
