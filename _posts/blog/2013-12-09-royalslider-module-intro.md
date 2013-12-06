@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title:  "RoyalSlider module Intro"
-date:   2013-11-28 11:24:40
+date:   2013-12-09 11:24:40
 categories: blog drupal
 featured: false
 permalink: blog/royalslider-module-intro
