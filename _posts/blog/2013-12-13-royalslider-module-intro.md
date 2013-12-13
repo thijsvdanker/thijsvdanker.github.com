@@ -1,7 +1,7 @@
 ---
 layout: blog_post
 title:  "RoyalSlider module Intro"
-date:   2013-12-09 11:24:40
+date:   2013-12-13 08:00:40
 categories: blog drupal
 featured: false
 permalink: blog/royalslider-module-intro
@@ -30,7 +30,7 @@ At the end of this post you'll be able to make a slideshow of images that work g
 * [Using RoyalSlider as an image field formatter](#use-as-formatter)
 
 ## <a name="royalslider-plugin">The RoyalSlider plugin</a>
-RoyalSlider is a great JavaScript plugin, developed by [Dmitry Semenov](http://codecanyon.net/user/Semenov) and available [here](http://codecanyon.net/item/royalslider-touchenabled-jquery-image-gallery/461126) on CodeCanyon. It's not free, but it's hard to beat for pricing compared to making it yourself ($12 at the moment of writing). The reason I've chosen to use it for my projects is because of its support for touchscreens. But there's alot more to this plugin than that. Some things I considered as important:
+RoyalSlider is a great JavaScript plugin, developed by [Dmitry Semenov](http://codecanyon.net/user/Semenov) and available [here](http://codecanyon.net/item/royalslider-touchenabled-jquery-image-gallery/461126) on CodeCanyon. It's not free, but it's hard to beat for pricing compared to making it yourself ($12 at the time of writing). The reason I've chosen to use it for my projects is because of its support for touchscreens. But there's alot more to this plugin than that. Some things I considered as important:
 
 * Great [documentation](http://dimsemenov.com/plugins/royal-slider/documentation/) & support.
 * Easy to use [api](http://dimsemenov.com/plugins/royal-slider/documentation/#api)
