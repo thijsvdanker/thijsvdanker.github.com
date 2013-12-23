@@ -50,7 +50,7 @@ To get up and running with the RoyalSlider module, you need a couple of things:
 
 The JavaScript plugin should be downloaded and extracted to the libraries folder (most problably _/sites/all/libraries_) so that jquery.royalslider.min.js exists at _/sites/all/libraries/royalslider/jquery.royalslider.min.js_.
 
-As mentioned in the dependencies, you need jQuery >= 1.7 for this to work, so go to _admin/config/development/jquery_update_ to change jQuery to version 1.7 or higher.
+As mentioned in the dependencies, you need jQuery >= 1.7 for this to work, so go to _admin/config/development/jquery&#95;update_ to change jQuery to version 1.7 or higher.
 
 Once you have downloaded all the code, go to the modules page (_/admin/modules_) and enable RoyalSlider.
 
