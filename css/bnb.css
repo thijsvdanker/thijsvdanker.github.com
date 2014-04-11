@@ -379,20 +379,20 @@ h2 a, h3 a {
 
 /* line 320, ../_assets/scss/bnb.scss */
 .wf-loading #menu {
-  width: 317px;
+  width: 320px;
 }
 
 /* line 323, ../_assets/scss/bnb.scss */
 .wf-inactive #menu {
-  width: 305px;
+  width: 310px;
 }
 
 /* line 326, ../_assets/scss/bnb.scss */
 #menu {
   clear: both;
   height: 1em;
-  font-size: 16px;
-  width: 317px;
+  font-size: 15px;
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
 }
