@@ -11,23 +11,22 @@
                 <img src="/img/laptop.png" class="imgBg" width="637" height="360" />
                 <div id="slider-in-laptop" class="royalSlider rsDefaultInv">
                   {% for post in site.posts %}
-                    {{post.excerpt}}
+                  {{post.excerpt}}
                   {% endfor %}
                 </div>
               </div>
               <div id="content">
-              {% include bnb_info.html hidelogo="true" %}
-              {% include social-buttons.html %}
-              {% include contact.html %}
-              {% include menu.html %}
+                {% include bnb_info.html hidelogo="true" %}
+                {% include social-buttons.html %}
+                {% include contact.html %}
+                {% include menu.html %}
               </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </div>
-</main>
-</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
 </div>
 
 {% include footer.html %}
