@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title:  "Hello Planet"
+title:  "Blog: Hello Planet"
 date:   2013-11-26 09:00:40
 categories: blog drupal
 featured: false
