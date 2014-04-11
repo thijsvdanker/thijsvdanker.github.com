@@ -19,20 +19,17 @@
           <div class="large-12 columns">
             <div class="row">
               <div class="large-8 large-centered columns">
-                  {% for post in site.categories.blog %}
-	                  	<div class="small-12 columns overview-item">
-	                  		{% include blog-item.html link=post.url title=post.title thumbnail=post.thumbnail description=post.description terms=post.tags date=post.date %}
-	                 	</div>
-                  {% endfor %}
-                </div>
+                {% for post in site.categories.blog %}
+                  <div class="small-12 columns overview-item">
+                  		{% include blog-item.html link=post.url title=post.title thumbnail=post.thumbnail description=post.description terms=post.tags date=post.date %}
+                 	</div>
+                {% endfor %}
               </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </div>
-</main>
-</div>
-</div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
 
 {% include footer.html %}
