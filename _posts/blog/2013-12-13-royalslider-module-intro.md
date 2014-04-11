@@ -1,6 +1,6 @@
 ---
 layout: blog_post
-title:  "Blog: RoyalSlider Drupal module Intro"
+title:  "RoyalSlider Drupal module Intro"
 date:   2013-12-13 08:00:40
 categories: blog drupal
 featured: false
