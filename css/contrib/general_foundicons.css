@@ -37,472 +37,472 @@
 }
 
 /* icons */
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-settings:before {
   content: "\f000";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-settings:before {
   content: "\f000";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-heart:before {
   content: "\f001";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-heart:before {
   content: "\f001";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-star:before {
   content: "\f002";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-star:before {
   content: "\f002";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-plus:before {
   content: "\f003";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-plus:before {
   content: "\f003";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-minus:before {
   content: "\f004";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-minus:before {
   content: "\f004";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-checkmark:before {
   content: "\f005";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-checkmark:before {
   content: "\f005";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-remove:before {
   content: "\f006";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-remove:before {
   content: "\f006";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-mail:before {
   content: "\f007";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-mail:before {
   content: "\f007";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-calendar:before {
   content: "\f008";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-calendar:before {
   content: "\f008";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-page:before {
   content: "\f009";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-page:before {
   content: "\f009";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-tools:before {
   content: "\f00a";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-tools:before {
   content: "\f00a";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-globe:before {
   content: "\f00b";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-globe:before {
   content: "\f00b";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-home:before {
   content: "\f00c";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-home:before {
   content: "\f00c";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-quote:before {
   content: "\f00d";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-quote:before {
   content: "\f00d";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-people:before {
   content: "\f00e";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-people:before {
   content: "\f00e";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-monitor:before {
   content: "\f00f";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-monitor:before {
   content: "\f00f";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-laptop:before {
   content: "\f010";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-laptop:before {
   content: "\f010";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-phone:before {
   content: "\f011";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-phone:before {
   content: "\f011";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-cloud:before {
   content: "\f012";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-cloud:before {
   content: "\f012";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-error:before {
   content: "\f013";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-error:before {
   content: "\f013";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-right-arrow:before {
   content: "\f014";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-right-arrow:before {
   content: "\f014";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-left-arrow:before {
   content: "\f015";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-left-arrow:before {
   content: "\f015";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-up-arrow:before {
   content: "\f016";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-up-arrow:before {
   content: "\f016";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-down-arrow:before {
   content: "\f017";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-down-arrow:before {
   content: "\f017";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-trash:before {
   content: "\f018";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-trash:before {
   content: "\f018";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-add-doc:before {
   content: "\f019";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-add-doc:before {
   content: "\f019";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-edit:before {
   content: "\f01a";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-edit:before {
   content: "\f01a";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-lock:before {
   content: "\f01b";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-lock:before {
   content: "\f01b";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-unlock:before {
   content: "\f01c";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-unlock:before {
   content: "\f01c";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-refresh:before {
   content: "\f01d";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-refresh:before {
   content: "\f01d";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-paper-clip:before {
   content: "\f01e";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-paper-clip:before {
   content: "\f01e";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-video:before {
   content: "\f01f";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-video:before {
   content: "\f01f";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-photo:before {
   content: "\f020";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-photo:before {
   content: "\f020";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-graph:before {
   content: "\f021";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-graph:before {
   content: "\f021";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-idea:before {
   content: "\f022";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-idea:before {
   content: "\f022";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-mic:before {
   content: "\f023";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-mic:before {
   content: "\f023";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-cart:before {
   content: "\f024";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-cart:before {
   content: "\f024";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-address-book:before {
   content: "\f025";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-address-book:before {
   content: "\f025";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-compass:before {
   content: "\f026";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-compass:before {
   content: "\f026";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-flag:before {
   content: "\f027";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-flag:before {
   content: "\f027";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-location:before {
   content: "\f028";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-location:before {
   content: "\f028";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-clock:before {
   content: "\f029";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-clock:before {
   content: "\f029";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-folder:before {
   content: "\f02a";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-folder:before {
   content: "\f02a";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-inbox:before {
   content: "\f02b";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-inbox:before {
   content: "\f02b";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-website:before {
   content: "\f02c";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-website:before {
   content: "\f02c";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-smiley:before {
   content: "\f02d";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-smiley:before {
   content: "\f02d";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-search:before {
   content: "\f02e";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-search:before {
   content: "\f02e";
 }

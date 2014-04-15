@@ -37,302 +37,302 @@
 }
 
 /* icons */
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-thumb-up:before {
   content: "\f000";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-thumb-up:before {
   content: "\f000";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-thumb-down:before {
   content: "\f001";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-thumb-down:before {
   content: "\f001";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-rss:before {
   content: "\f002";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-rss:before {
   content: "\f002";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-facebook:before {
   content: "\f003";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-facebook:before {
   content: "\f003";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-twitter:before {
   content: "\f004";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-twitter:before {
   content: "\f004";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-pinterest:before {
   content: "\f005";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-pinterest:before {
   content: "\f005";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-github:before {
   content: "\f006";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-github:before {
   content: "\f006";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-path:before {
   content: "\f007";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-path:before {
   content: "\f007";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-linkedin:before {
   content: "\f008";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-linkedin:before {
   content: "\f008";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-dribbble:before {
   content: "\f009";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-dribbble:before {
   content: "\f009";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-stumble-upon:before {
   content: "\f00a";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-stumble-upon:before {
   content: "\f00a";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-behance:before {
   content: "\f00b";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-behance:before {
   content: "\f00b";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-reddit:before {
   content: "\f00c";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-reddit:before {
   content: "\f00c";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-google-plus:before {
   content: "\f00d";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-google-plus:before {
   content: "\f00d";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-youtube:before {
   content: "\f00e";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-youtube:before {
   content: "\f00e";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-vimeo:before {
   content: "\f00f";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-vimeo:before {
   content: "\f00f";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-flickr:before {
   content: "\f010";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-flickr:before {
   content: "\f010";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-slideshare:before {
   content: "\f011";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-slideshare:before {
   content: "\f011";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-picassa:before {
   content: "\f012";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-picassa:before {
   content: "\f012";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-skype:before {
   content: "\f013";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-skype:before {
   content: "\f013";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-steam:before {
   content: "\f014";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-steam:before {
   content: "\f014";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-instagram:before {
   content: "\f015";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-instagram:before {
   content: "\f015";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-foursquare:before {
   content: "\f016";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-foursquare:before {
   content: "\f016";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-delicious:before {
   content: "\f017";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-delicious:before {
   content: "\f017";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-chat:before {
   content: "\f018";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-chat:before {
   content: "\f018";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-torso:before {
   content: "\f019";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-torso:before {
   content: "\f019";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-tumblr:before {
   content: "\f01a";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-tumblr:before {
   content: "\f01a";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-video-chat:before {
   content: "\f01b";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-video-chat:before {
   content: "\f01b";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-digg:before {
   content: "\f01c";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-digg:before {
   content: "\f01c";
 }
 
-/* line 9, ../../_assets/scss/_settings.scss */
+/* line 10, ../../_assets/scss/_settings.scss */
 .foundicon-general-wordpress:before {
   content: "\f01d";
 }
 
-/* line 12, ../../_assets/scss/_settings.scss */
+/* line 13, ../../_assets/scss/_settings.scss */
 .foundicon-wordpress:before {
   content: "\f01d";
 }

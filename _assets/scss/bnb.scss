@@ -4,9 +4,10 @@
 //   padding: 2% 15% 7%;
 //   background: none;
 // }
+$bnbBlue: #26a1c6;
 a:focus {
   outline:inherit;
-  border: 1px solid #2795b6;
+  border: 1px solid $bnbBlue;
 }
 
 #slider-in-laptop {
@@ -147,7 +148,7 @@ h2 a, h3 a {
    // -webkit-transition: color .25s ease-in-out;
   }
   a:hover {
-    color:#2ba6cb;
+    color:$bnbBlue;
   }
 
   ul {
@@ -297,7 +298,7 @@ h2 a, h3 a {
     margin-left:5px;
   }
   .foundicon-general-mail {
-    color:#2ba6cb;
+    color:$bnbBlue;
   }
   &.phone {
     color:#000;
@@ -367,7 +368,7 @@ h2 a, h3 a {
     padding-top:50px;
     h1 {
       margin-top:0;
-      color:#2ba6cb;
+      color:$bnbBlue;
       font-size:48px;
     }
     #content-wrapper {
