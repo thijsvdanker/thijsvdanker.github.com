@@ -21,7 +21,7 @@
               <div class="large-8 large-centered columns">
                 {% for post in site.categories.blog %}
                   <div class="small-12 columns overview-item">
-                  		{% include blog-item.html link=post.url title=post.title thumbnail=post.thumbnail description=post.description terms=post.tags date=post.date %}
+                  		{% include blog-item.html link=post.url title=post.title thumbnail=post.thumbnail description=post.description terms=post.tags date=post.date thumbnail_alt=post.thumbnail_alt %}
                  	</div>
                 {% endfor %}
               </div>

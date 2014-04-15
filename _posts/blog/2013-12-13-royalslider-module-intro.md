@@ -11,6 +11,7 @@ tags:
  - module
 description: Get up and running with the RoyalSlider integration module for Drupal.
 thumbnail: "blog_rs_intro_rs_module_page.jpg"
+thumbnail_alt: "Drupal.org, naar RoyalSlider Drupal module Intro"
 ---
 <div class="project-excerpt">
 	<div id="intro" class="tk-daniel">

@@ -11,6 +11,7 @@ tags:
  - drupal
 description: A big welcome to my blog! Let me explain what you can expect of it in the future.
 thumbnail: "BnBLogo.jpg"
+thumbnail_alt: "Logo Bits n Bolts, naar Hello Planet"
 ---
 <div class="project-excerpt">
 	<div id="intro" class="tk-daniel">
