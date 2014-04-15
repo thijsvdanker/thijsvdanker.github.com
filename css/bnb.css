@@ -1,7 +1,7 @@
 /* line 8, ../_assets/scss/bnb.scss */
 a:focus {
   outline: inherit;
-  border: 1px solid #26a1c6;
+  border: 1px solid #0580a5;
 }
 
 /* line 13, ../_assets/scss/bnb.scss */
@@ -177,7 +177,7 @@ h2 a, h3 a {
 }
 /* line 150, ../_assets/scss/bnb.scss */
 #social-buttons a:hover {
-  color: #26a1c6;
+  color: #0580a5;
 }
 /* line 154, ../_assets/scss/bnb.scss */
 #social-buttons ul {
@@ -357,7 +357,7 @@ h2 a, h3 a {
 }
 /* line 300, ../_assets/scss/bnb.scss */
 #contact li .foundicon-general-mail {
-  color: #26a1c6;
+  color: #0580a5;
 }
 /* line 303, ../_assets/scss/bnb.scss */
 #contact li.phone {
@@ -437,7 +437,7 @@ h2 a, h3 a {
 /* line 369, ../_assets/scss/bnb.scss */
 .l-default #main-wrapper h1, .l-project #main-wrapper h1 {
   margin-top: 0;
-  color: #26a1c6;
+  color: #0580a5;
   font-size: 48px;
 }
 /* line 374, ../_assets/scss/bnb.scss */
