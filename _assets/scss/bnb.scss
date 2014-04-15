@@ -4,6 +4,10 @@
 //   padding: 2% 15% 7%;
 //   background: none;
 // }
+a:focus {
+  outline:inherit;
+  border: 1px solid #2795b6;
+}
 
 #slider-in-laptop {
   width: 100%;
