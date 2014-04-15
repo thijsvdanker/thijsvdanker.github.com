@@ -441,7 +441,7 @@ h2 a, h3 a {
   font-size: 48px;
 }
 /* line 373, ../_assets/scss/bnb.scss */
-.l-default #main-wrapper #content, .l-project #main-wrapper #content {
+.l-default #main-wrapper #content-wrapper, .l-project #main-wrapper #content-wrapper {
   text-align: left;
 }
 /* line 377, ../_assets/scss/bnb.scss */
