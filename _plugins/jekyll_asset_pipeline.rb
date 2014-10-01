@@ -1,8 +1,7 @@
-gem "jekyll-asset-pipeline", "=0.1.6"
-require "jekyll_asset_pipeline"
+require 'japr'
 
-module JekyllAssetPipeline
-  class SassConverter < JekyllAssetPipeline::Converter
+module JAPR
+  class SassConverter < JAPR::Converter
     require 'sass'
 
     def self.filetype
@@ -13,7 +12,7 @@ module JekyllAssetPipeline
       return Sass::Engine.new(@content, syntax: :scss).render
     end
   end
-  class CssCompressor < JekyllAssetPipeline::Compressor
+  class CssCompressor < JAPR::Compressor
     require 'yui/compressor'
 
     def self.filetype
@@ -25,7 +24,7 @@ module JekyllAssetPipeline
     end
   end
 
-  class JavaScriptCompressor < JekyllAssetPipeline::Compressor
+  class JavaScriptCompressor < JAPR::Compressor
     require 'yui/compressor'
 
     def self.filetype
