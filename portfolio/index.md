@@ -1,7 +1,7 @@
 ---
 layout: overview
 title: Portfolio
-published: false
+published: true
 sitemap:
     priority: 0.7
     changefreq: weekly

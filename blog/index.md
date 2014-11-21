@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-published: false
+published: true
 sitemap:
     priority: 0.7
     changefreq: daily
