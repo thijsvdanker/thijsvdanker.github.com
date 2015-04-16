@@ -45,7 +45,8 @@
   {% if site.environment == 'dev' %}
     {% include stylesheets.dev.html %}
   {% else %}
-    {% include stylesheets.live.html %}
+    <!-- {% include stylesheets.live.html %} -->
+    {% include stylesheets.dev.html %}
   {% endif %}
   <style>
     .l-home #content {
