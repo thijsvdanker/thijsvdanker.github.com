@@ -8,7 +8,7 @@ $classPrefixGeneral: "foundicon-general-";
 
 @mixin i-class($name,$pua) {
   .#{$classPrefixGeneral}#{$name}:before { 
-    content: "\f#{$pua}";
+    content: "\\f#{$pua}";
   }
   .#{$classPrefix}#{$name}:before { 
     content: "\f#{$pua}";
