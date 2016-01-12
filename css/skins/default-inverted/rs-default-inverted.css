@@ -277,9 +277,7 @@
 	text-decoration: none;
 
 	background-color: #FFF;
-	background-image: -webkit-linear-gradient(top, #fefefe, #f4f4f4); 
-	background-image:    -moz-linear-gradient(top, #fefefe, #f4f4f4);
-	background-image:         linear-gradient(to bottom, #fefefe, #f4f4f4);
+	background-image:         linear-gradient(to top, #fefefe, #f4f4f4);
 
 	-webkit-box-shadow: inset 1px 0 0 #fff;
 	box-shadow: inset 1px 0 0 #fff;
@@ -312,9 +310,7 @@
 	text-shadow: 1px 1px #838383;
 	box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset;
 	background: #ACACAC;
-	background-image: -webkit-linear-gradient(top, #ACACAC, #BBB);
-	background-image: -moz-llinear-gradient(top, #ACACAC, #BBB);
-	background-image: linear-gradient(to bottom, #ACACAC, #BBB);
+	background-image: linear-gradient(to top, #ACACAC, #BBB);
 }
 
 
