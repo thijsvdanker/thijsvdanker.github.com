@@ -3,6 +3,8 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var cssnano = require('gulp-cssnano');
 var autoprefixer = require('gulp-autoprefixer');
+const imagemin = require('gulp-imagemin');
+const pngquant = require('imagemin-pngquant');
 
 gulp.task('concatContrib', function() {
   gulp.src([
@@ -19,6 +21,14 @@ gulp.task('concatContrib', function() {
   .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
   .pipe(concat('style.min.css'))
   .pipe(gulp.dest('css'))
+});
 
-
+gulp.task('minImg', () => {
+    return gulp.src('img/*')
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
+        }))
+        .pipe(gulp.dest('img'));
 });
