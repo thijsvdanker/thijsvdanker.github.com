@@ -24,7 +24,7 @@ gulp.task('concatContrib', function() {
 });
 
 gulp.task('minImg', () => {
-    return gulp.src('img/*')
+    return gulp.src('img/surplace_analytics.jpg')
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
